@@ -1,0 +1,24 @@
+{
+  "updated": "2026-11-11",
+  "stores": [
+    {"id": "ml", "name": "Mercado Livre", "color": "#FACC15", "ink": "#1A1400"},
+    {"id": "mg", "name": "Magalu", "color": "#60A5FA", "ink": "#06182E"},
+    {"id": "am", "name": "Amazon", "color": "#2DD4BF", "ink": "#03201C"},
+    {"id": "cb", "name": "Casas Bahia", "color": "#C4B5FD", "ink": "#170F33"},
+    {"id": "sp", "name": "Shopee", "color": "#FB7185", "ink": "#2B0610"}
+  ],
+  "categories": [
+    {"id": "cel", "label": "Celulares", "lower": "celulares", "spec": "Armazenamento", "filterBy": "name", "items": [
+      {"name": "iPhone 16 128 GB", "brand": "Apple", "spec": "128 GB", "offers": {"ml": {"price": 4700, "disc": 39, "link": "https://meli.la/1wovzo8"}}},
+      {"name": "iPhone 16 256 GB", "brand": "Apple", "spec": "256 GB", "offers": {"ml": {"price": 5313, "disc": 44, "link": "https://meli.la/2gYBsGo"}}},
+      {"name": "iPhone 15 128 GB", "brand": "Apple", "spec": "128 GB", "offers": {"ml": {"price": 3779, "disc": 47, "link": "https://meli.la/1YX5Sv4"}}},
+      {"name": "Galaxy S25 256 GB", "brand": "Samsung", "spec": "256 GB", "offers": {"ml": {"price": 3656, "disc": 39, "link": "https://meli.la/1cMKJ9Q"}}},
+      {"name": "Galaxy S24 FE 128 GB", "brand": "Samsung", "spec": "128 GB", "offers": {"ml": {"price": 3196, "disc": 0, "link": "https://meli.la/2c8cgkt"}}},
+      {"name": "Galaxy A56 256 GB", "brand": "Samsung", "spec": "256 GB", "offers": {"ml": {"price": 2498, "disc": 37, "link": "https://meli.la/1uDjLej"}}},
+      {"name": "Galaxy A16 128 GB", "brand": "Samsung", "spec": "128 GB", "offers": {"ml": {"price": 1454, "disc": 27, "link": "https://meli.la/2uxRMJB"}}},
+      {"name": "Moto G85 256 GB", "brand": "Motorola", "spec": "256 GB", "offers": {"ml": {"price": 2076, "disc": 0, "link": "https://meli.la/1td81no"}}},
+      {"name": "Moto G35 128 GB", "brand": "Motorola", "spec": "128 GB", "offers": {"ml": {"price": 1125, "disc": 0, "link": "https://meli.la/1LrjyLf"}}},
+      {"name": "Redmi Note 14 256 GB", "brand": "Xiaomi", "spec": "256 GB", "offers": {"ml": {"price": 2799, "disc": 0, "link": "https://meli.la/2gPTUm8"}}}
+    ]}
+  ]
+}
