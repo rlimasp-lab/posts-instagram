@@ -47,6 +47,11 @@
    "id": "ar",
    "label": "Ar-condicionado",
    "spec": "Potência"
+  },
+  {
+   "id": "mesa",
+   "label": "Mesas elétricas",
+   "spec": "Tampo"
   }
  ],
  "items": [
@@ -194,8 +199,8 @@
    "img": "807592-MLA96970001108_112025",
    "offers": {
     "ml": {
-     "price": 2629,
-     "orig": 3999,
+     "price": 2829,
+     "orig": 3248,
      "link": "https://meli.la/1i8zhKU",
      "seller": "Turum",
      "mlb": "MLB58378317",
@@ -237,8 +242,8 @@
    "img": "648434-MLA115300888751_072026",
    "offers": {
     "ml": {
-     "price": 2754,
-     "orig": 2899,
+     "price": 2729,
+     "orig": 3599,
      "link": "https://meli.la/21L9PaN",
      "seller": "Magalu",
      "mlb": "MLB74143355",
@@ -270,7 +275,7 @@
      "ok": true
     },
     "am": {
-     "price": 2270,
+     "price": 2398,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0HCRPPXB1?tag=lima0a0-20",
      "asin": "B0HCRPPXB1",
@@ -330,8 +335,8 @@
    "img": "962497-MLA99453195020_112025",
    "offers": {
     "ml": {
-     "price": 3799,
-     "orig": 5026,
+     "price": 3989,
+     "orig": 4199,
      "link": "https://meli.la/2WKZK4w",
      "seller": "Mercado Livre",
      "mlb": "MLB34292626",
@@ -406,7 +411,7 @@
      "ok": true
     },
     "am": {
-     "price": 2742,
+     "price": 2600,
      "orig": 3315,
      "link": "https://www.amazon.com.br/dp/B0G1D2BB62?tag=lima0a0-20",
      "asin": "B0G1D2BB62",
@@ -498,7 +503,7 @@
    "img": "600123-MLA107244625265_022026",
    "offers": {
     "ml": {
-     "price": 2755,
+     "price": 2642,
      "orig": 3359,
      "link": "https://meli.la/2R4LiMT",
      "seller": "Mercado Livre",
@@ -691,8 +696,8 @@
    "img": "917196-MLA107967121323_032026",
    "offers": {
     "ml": {
-     "price": 1811,
-     "orig": 1969,
+     "price": 1940,
+     "orig": 2209,
      "link": "https://meli.la/1774aHL",
      "seller": "VOLIX",
      "mlb": "MLB66129914",
@@ -717,7 +722,7 @@
      "ok": true
     },
     "am": {
-     "price": 1843,
+     "price": 2049,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0F9X9D1TQ?tag=lima0a0-20",
      "asin": "B0F9X9D1TQ",
@@ -972,6 +977,24 @@
     }
    },
    "id": "xiaomi-redmi-note-14-256-gb"
+  },
+  {
+   "cat": "mesa",
+   "name": "Mesa Elétrica DewertOkin DS2 PRO com Regulagem de Altura Branca",
+   "brand": "DewertOkin",
+   "spec": "150 x 60 cm",
+   "img": "960249-MLA95569563765_102025",
+   "offers": {
+    "ml": {
+     "price": 1807,
+     "orig": 2170,
+     "link": "https://meli.la/1ZLVRvS",
+     "mlb": "MLB34508386",
+     "ok": true
+    }
+   },
+   "id": "mesa-eletrica-dewertokin-ds2-pro-com-regulagem-de-altura-bra",
+   "origem": "busca: mesa automática"
   }
  ]
 }
