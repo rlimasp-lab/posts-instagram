@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "stores": [
   {
    "id": "ml",
@@ -62,6 +62,12 @@
      "orig": 5699,
      "link": "https://meli.la/2HqQzQL",
      "seller": "Samsung"
+    },
+    "am": {
+     "price": 3279,
+     "orig": 3649,
+     "link": "https://www.amazon.com.br/dp/B0H7YV1TD8?tag=lima0a0-20",
+     "asin": "B0H7YV1TD8"
     }
    },
    "id": "samsung-smart-tv-65-mini-led-4k-m75h"
@@ -94,6 +100,12 @@
      "orig": 7899,
      "link": "https://meli.la/2rPyUeG",
      "seller": "Samsung"
+    },
+    "am": {
+     "price": 4589,
+     "orig": 5599,
+     "link": "https://www.amazon.com.br/dp/B0HC47DYZV?tag=lima0a0-20",
+     "asin": "B0HC47DYZV"
     }
    },
    "id": "samsung-smart-tv-75-mini-led-4k-m75h"
@@ -110,6 +122,12 @@
      "orig": 4499,
      "link": "https://meli.la/1M1BiYY",
      "seller": "Samsung"
+    },
+    "am": {
+     "price": 3616,
+     "orig": 4499,
+     "link": "https://www.amazon.com.br/dp/B0HBYBB54N?tag=lima0a0-20",
+     "asin": "B0HBYBB54N"
     }
    },
    "id": "samsung-smart-tv-65-crystal-uhd-4k-u8000h"
@@ -126,6 +144,12 @@
      "orig": 9399,
      "link": "https://meli.la/2tp2Kkr",
      "seller": "Samsung"
+    },
+    "am": {
+     "price": 6649,
+     "orig": 7494,
+     "link": "https://www.amazon.com.br/dp/B0HBYTF3B8?tag=lima0a0-20",
+     "asin": "B0HBYTF3B8"
     }
    },
    "id": "samsung-smart-tv-85-crystal-uhd-4k-u8000h"
@@ -174,6 +198,12 @@
      "orig": 6499,
      "link": "https://meli.la/2Gjk3BX",
      "seller": "Vikings"
+    },
+    "am": {
+     "price": 3419,
+     "orig": null,
+     "link": "https://www.amazon.com.br/dp/B0H5FLN8W3?tag=lima0a0-20",
+     "asin": "B0H5FLN8W3"
     }
    },
    "id": "smart-tv-4k-65-lg-nano-uhd-ai-nu850-2026-processador-7-ger9-"
@@ -190,6 +220,12 @@
      "orig": 2899,
      "link": "https://meli.la/21L9PaN",
      "seller": "Magalu"
+    },
+    "am": {
+     "price": 2609,
+     "orig": 2899,
+     "link": "https://www.amazon.com.br/dp/B0H4HCJJZW?tag=lima0a0-20",
+     "asin": "B0H4HCJJZW"
     }
    },
    "id": "smart-tv-4k-55-lg-qned-mini-led-ai-qned70-2026-processador-7"
@@ -206,6 +242,12 @@
      "orig": 4999,
      "link": "https://meli.la/1b4113t",
      "seller": "Vikings"
+    },
+    "am": {
+     "price": 2270,
+     "orig": 2389,
+     "link": "https://www.amazon.com.br/dp/B0HCRPPXB1?tag=lima0a0-20",
+     "asin": "B0HCRPPXB1"
     }
    },
    "id": "smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c"
@@ -222,6 +264,12 @@
      "orig": 3199,
      "link": "https://meli.la/2iPrTrU",
      "seller": "Mercado Livre"
+    },
+    "am": {
+     "price": 2707,
+     "orig": 3199,
+     "link": "https://www.amazon.com.br/dp/B0GFGNR7DQ?tag=lima0a0-20",
+     "asin": "B0GFGNR7DQ"
     }
    },
    "id": "geladeira-brastemp-frost-free-385-litros-duplex-inox-brm46mk"
@@ -270,6 +318,12 @@
      "orig": 3609,
      "link": "https://meli.la/1Xxm8uf",
      "seller": "Mercado Livre"
+    },
+    "am": {
+     "price": 2519,
+     "orig": 3499,
+     "link": "https://www.amazon.com.br/dp/B0GYB5D8FQ?tag=lima0a0-20",
+     "asin": "B0GYB5D8FQ"
     }
    },
    "id": "geladeira-electrolux-frost-free-380l-autosense-inverter-dupl"
@@ -286,6 +340,12 @@
      "orig": 4709,
      "link": "https://meli.la/1kzYwcj",
      "seller": "Mercado Livre"
+    },
+    "am": {
+     "price": 3799,
+     "orig": null,
+     "link": "https://www.amazon.com.br/dp/B0D1YP2X5W?tag=lima0a0-20",
+     "asin": "B0D1YP2X5W"
     }
    },
    "id": "geladeira-electrolux-frost-free-inverter-480l-efficient-com-"
@@ -302,6 +362,12 @@
      "orig": 3699,
      "link": "https://meli.la/19icmP6",
      "seller": "Mercado Livre"
+    },
+    "am": {
+     "price": 3099,
+     "orig": 3315,
+     "link": "https://www.amazon.com.br/dp/B0G1D2BB62?tag=lima0a0-20",
+     "asin": "B0G1D2BB62"
     }
    },
    "id": "geladeira-consul-frost-free-455-litros-duplex-inox-crm53mk"
@@ -318,6 +384,12 @@
      "orig": 3549,
      "link": "https://meli.la/1km8jDw",
      "seller": "Mercado Livre"
+    },
+    "am": {
+     "price": 2754,
+     "orig": 2999,
+     "link": "https://www.amazon.com.br/dp/B0GL51Q7DD?tag=lima0a0-20",
+     "asin": "B0GL51Q7DD"
     }
    },
    "id": "geladeira-brastemp-frost-free-415-litros-duplex-inox-brm52mk"
@@ -334,6 +406,12 @@
      "orig": 5099,
      "link": "https://meli.la/1WVivoM",
      "seller": "Mercado Livre"
+    },
+    "am": {
+     "price": 3526,
+     "orig": 4749,
+     "link": "https://www.amazon.com.br/dp/B0GL3P9P61?tag=lima0a0-20",
+     "asin": "B0GL3P9P61"
     }
    },
    "id": "geladeira-brastemp-frost-free-inverse-500-litros-branca-bre6"
@@ -350,6 +428,12 @@
      "orig": 3559,
      "link": "https://meli.la/2MdnTLi",
      "seller": "Mercado Livre"
+    },
+    "am": {
+     "price": 2944,
+     "orig": 3099,
+     "link": "https://www.amazon.com.br/dp/B0GXX6MXLL?tag=lima0a0-20",
+     "asin": "B0GXX6MXLL"
     }
    },
    "id": "geladeira-electrolux-frost-free-400l-inverter-inox-if44s"
@@ -366,6 +450,12 @@
      "orig": 3359,
      "link": "https://meli.la/2R4LiMT",
      "seller": "Mercado Livre"
+    },
+    "am": {
+     "price": 2557,
+     "orig": 2841,
+     "link": "https://www.amazon.com.br/dp/B0GXXB74SK?tag=lima0a0-20",
+     "asin": "B0GXXB74SK"
     }
    },
    "id": "geladeira-electrolux-frost-free-400l-autosense-branca-if44"
@@ -398,6 +488,12 @@
      "orig": 3902,
      "link": "https://meli.la/12zrNRt",
      "seller": "Mega Byte"
+    },
+    "am": {
+     "price": 2069,
+     "orig": 2299,
+     "link": "https://www.amazon.com.br/dp/B0FY6RY66N?tag=lima0a0-20",
+     "asin": "B0FY6RY66N"
     }
    },
    "id": "ar-condicionado-lg-inverter-smart-voice-ai-12-000-btus-frio-"
@@ -414,6 +510,12 @@
      "orig": 4183,
      "link": "https://meli.la/1LL4fXT",
      "seller": "Mega Byte"
+    },
+    "am": {
+     "price": 2385,
+     "orig": 2513,
+     "link": "https://www.amazon.com.br/dp/B0GPSGMTDJ?tag=lima0a0-20",
+     "asin": "B0GPSGMTDJ"
     }
    },
    "id": "ar-condicionado-lg-dual-inverter-ai-voice-12000-btus-qf-bran"
@@ -430,6 +532,12 @@
      "orig": null,
      "link": "https://meli.la/1fReXwP",
      "seller": "Samsung"
+    },
+    "am": {
+     "price": 2374,
+     "orig": 2499,
+     "link": "https://www.amazon.com.br/dp/B0H4N4L11K?tag=lima0a0-20",
+     "asin": "B0H4N4L11K"
     }
    },
    "id": "ar-condicionado-samsung-inverter-windfree-ai-pro-12-000-btus"
@@ -446,6 +554,12 @@
      "orig": 4599,
      "link": "https://meli.la/1gwdsoX",
      "seller": "ClimaRio"
+    },
+    "am": {
+     "price": 2992,
+     "orig": 3619,
+     "link": "https://www.amazon.com.br/dp/B081DJQMXS?tag=lima0a0-20",
+     "asin": "B081DJQMXS"
     }
    },
    "id": "ar-condicionado-split-hi-wall-inverter-r-32-g-top-auto-gree-"
@@ -462,6 +576,12 @@
      "orig": null,
      "link": "https://meli.la/2Zov8sz",
      "seller": "Centralar.com"
+    },
+    "am": {
+     "price": 2096,
+     "orig": 2206,
+     "link": "https://www.amazon.com.br/dp/B081DJTHY1?tag=lima0a0-20",
+     "asin": "B081DJTHY1"
     }
    },
    "id": "ar-condicionado-split-hi-wall-gree-g-side-auto-inverter-12-0"
@@ -478,6 +598,12 @@
      "orig": 5000,
      "link": "https://meli.la/26egXsq",
      "seller": "ClimaRio"
+    },
+    "am": {
+     "price": 3895,
+     "orig": 4799,
+     "link": "https://www.amazon.com.br/dp/B081DK3H36?tag=lima0a0-20",
+     "asin": "B081DK3H36"
     }
    },
    "id": "ar-condicionado-split-hw-g-top-auto-inverter-r-32-gree-24000"
@@ -510,6 +636,12 @@
      "orig": 2444,
      "link": "https://meli.la/2feXhds",
      "seller": "Ar Certo"
+    },
+    "am": {
+     "price": 1843,
+     "orig": 2048,
+     "link": "https://www.amazon.com.br/dp/B0F9X9D1TQ?tag=lima0a0-20",
+     "asin": "B0F9X9D1TQ"
     }
    },
    "id": "ar-condicionado-split-9-000-btus-inverter-ai-ecomaster-q-f-m"
@@ -526,6 +658,12 @@
      "orig": 2557,
      "link": "https://meli.la/1y1L179",
      "seller": "Ar Certo"
+    },
+    "am": {
+     "price": 1709,
+     "orig": 1999,
+     "link": "https://www.amazon.com.br/dp/B0F9HDVB86?tag=lima0a0-20",
+     "asin": "B0F9HDVB86"
     }
    },
    "id": "ar-condicionado-split-midea-ai-ecomaster-9-000-btus-frio"
@@ -542,6 +680,12 @@
      "orig": 7799,
      "link": "https://meli.la/1wovzo8",
      "seller": ""
+    },
+    "am": {
+     "price": 4799,
+     "orig": 6799,
+     "link": "https://www.amazon.com.br/dp/B0DJFTJ6LX?tag=lima0a0-20",
+     "asin": "B0DJFTJ6LX"
     }
    },
    "id": "iphone-16-128-gb"
@@ -558,6 +702,12 @@
      "orig": 9538,
      "link": "https://meli.la/2gYBsGo",
      "seller": ""
+    },
+    "am": {
+     "price": 5399,
+     "orig": 7599,
+     "link": "https://www.amazon.com.br/dp/B0DJFSKVZ5?tag=lima0a0-20",
+     "asin": "B0DJFSKVZ5"
     }
    },
    "id": "iphone-16-256-gb"
@@ -574,6 +724,12 @@
      "orig": 7209,
      "link": "https://meli.la/1YX5Sv4",
      "seller": ""
+    },
+    "am": {
+     "price": 3989,
+     "orig": 5999,
+     "link": "https://www.amazon.com.br/dp/B0CP6CVJSG?tag=lima0a0-20",
+     "asin": "B0CP6CVJSG"
     }
    },
    "id": "iphone-15-128-gb"
@@ -590,6 +746,12 @@
      "orig": 5999,
      "link": "https://meli.la/1cMKJ9Q",
      "seller": ""
+    },
+    "am": {
+     "price": 3656,
+     "orig": 4063,
+     "link": "https://www.amazon.com.br/dp/B0DSY665M3?tag=lima0a0-20",
+     "asin": "B0DSY665M3"
     }
    },
    "id": "samsung-galaxy-s25-256-gb"
@@ -622,6 +784,12 @@
      "orig": 3999,
      "link": "https://meli.la/1uDjLej",
      "seller": ""
+    },
+    "am": {
+     "price": 2849,
+     "orig": 3499,
+     "link": "https://www.amazon.com.br/dp/B0DYVPCX34?tag=lima0a0-20",
+     "asin": "B0DYVPCX34"
     }
    },
    "id": "samsung-galaxy-a56-256-gb"
@@ -670,6 +838,12 @@
      "orig": null,
      "link": "https://meli.la/1LrjyLf",
      "seller": ""
+    },
+    "am": {
+     "price": 829,
+     "orig": 899,
+     "link": "https://www.amazon.com.br/dp/B0DHWFBYVC?tag=lima0a0-20",
+     "asin": "B0DHWFBYVC"
     }
    },
    "id": "motorola-moto-g35-128-gb"
