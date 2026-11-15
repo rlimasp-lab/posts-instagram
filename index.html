@@ -3,210 +3,177 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Placar do Desconto: quem tem o menor preço agora</title>
-<meta name="description" content="Compare o preço do mesmo produto nas maiores lojas do Brasil e veja quem está ganhando em cada faixa de valor.">
+<title>Placar do Desconto: compare preços e ache a melhor oferta</title>
+<meta name="description" content="Celulares, TVs, geladeiras e ar-condicionado: veja o menor preço e o desconto anunciado nas maiores lojas do Brasil.">
 <meta property="og:title" content="Placar do Desconto">
 <meta property="og:description" content="Quem tem o menor preço agora, loja por loja.">
-<meta name="theme-color" content="#0A0B0D">
+<meta name="theme-color" content="#0F172A">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
+:root{--ink:#0F172A;--txt:#111827;--mut:#5B6472;--line:#E3E6EB;--bg:#F4F5F7;--brand:#1D4ED8;--buy:#15803D;--gold:#FACC15}
 *{box-sizing:border-box}
-body{margin:0;background:#0A0B0D;color:#ECEEF2;font-family:Inter,system-ui,sans-serif}
-button{font:inherit;color:inherit}
-h1,h2{margin:0}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:Inter,system-ui,sans-serif;font-size:15px;line-height:1.45}
+a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
+button,input,select{font:inherit;color:inherit}
+h1,h2,h3,p{margin:0}
 .num{font-variant-numeric:tabular-nums}
-.g{font-family:'Space Grotesk',sans-serif;font-weight:700}
-.mut{color:#A3A9B5}
-.wrap{max-width:1600px;margin:0 auto;padding:12px 16px 24px;display:flex;flex-direction:column;gap:12px}
-.card{background:#111318;border:1px solid #24272F;border-radius:16px;padding:16px}
-header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-.logo .a{font-weight:800;font-style:italic;font-size:15px;color:#fff}
-.logo .b{font-weight:800;font-style:italic;font-size:25px;color:#FACC15;letter-spacing:-.02em;line-height:1}
-.pills{display:flex;flex-wrap:wrap;gap:4px;padding:4px;border-radius:26px;background:#15171C;border:1px solid #24272F}
-.pill{height:44px;padding:0 18px;border-radius:22px;border:0;font-size:14px;font-weight:600;cursor:pointer;background:transparent;color:#C9CED8}
-.pill.on{background:#ECEEF2;color:#0A0B0D}
-.live{display:flex;align-items:center;gap:8px;font-size:13px;color:#A3A9B5}
-.live i{width:8px;height:8px;border-radius:50%;background:#34D399}
-.score .top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:12px}
-.score h1{font-size:22px;text-align:center;flex:1 1 280px}
-.score .nm{font-size:24px;line-height:1.1}
-.bar{display:flex;height:34px;border-radius:8px;overflow:hidden;background:#1B1E25;gap:2px}
-.bar div{min-width:44px;display:flex;align-items:center;justify-content:center;font-size:15px}
-.leg{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;font-size:13px;color:#C9CED8}
-.leg span{display:inline-flex;align-items:center;gap:6px}
-.dot{width:10px;height:10px;border-radius:3px;display:inline-block}
-.cols{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start}
-.side{flex:1 1 230px;min-width:0;max-width:100%;display:flex;flex-direction:column;gap:14px}
-.mid{flex:999 1 500px;min-width:0;display:flex;flex-direction:column;gap:10px}
-.det{flex:1 1 290px;min-width:0;max-width:100%;display:flex;flex-direction:column;gap:14px}
-.sep{border-top:1px solid #24272F;padding-top:14px}
-.big{font-size:32px;color:#FACC15;line-height:1}
-.ix{display:grid;grid-template-columns:96px minmax(0,1fr) 40px;align-items:center;gap:8px;font-size:13px;margin-top:10px}
-.track{height:8px;background:#1B1E25;border-radius:4px;overflow:hidden}
-.track b{display:block;height:100%;border-radius:4px}
-.mx{overflow-x:auto;border-radius:16px;border:1px solid #24272F;background:#111318;padding:4px}
-.row{display:grid;min-width:var(--minw)}
-.hd{padding:8px 2px;font-size:12px;font-weight:700;line-height:1.2;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:5px}
-.rl{padding:6px 8px;display:flex;flex-direction:column;justify-content:center;gap:2px;white-space:nowrap}
-.rl b{font-size:14px}.rl span{font-size:12px;color:#A3A9B5}
-.cw{padding:3px;min-width:0}
-.cell{width:100%;min-height:72px;border-radius:10px;border:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:6px 2px;white-space:nowrap;background:#1B1E25;color:#C9CED8}
-.cell .t{font-size:9px;font-weight:800;letter-spacing:.04em}.cell .p{font-size:16px;line-height:1.1}.cell .s{font-size:11px}
-.cell.win{background:#FACC15;color:#1A1400;box-shadow:0 0 16px rgba(250,204,21,.3)}
-.cell.near{background:#4A3F12;color:#FDE68A}
-.cell.sel{outline:3px solid #fff;outline-offset:1px}
-.cell.none{background:transparent;border:1px dashed #2C303A;cursor:default;font-size:12px;color:#A3A9B5}
-.teto{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:8px 16px}
-.teto input{flex:1 1 200px;height:28px;accent-color:#FACC15}
-.tag{display:inline-flex;align-self:flex-start;align-items:center;height:26px;padding:0 12px;border-radius:13px;background:#FACC15;color:#1A1400;font-size:11px;font-weight:800;letter-spacing:.08em}
-.pr{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;margin-top:6px}
-.pr .v{font-weight:700}.pr.min .v{color:#FACC15}.pr.min .n{color:#fff;font-weight:700}
-.thin{height:4px;background:#1B1E25;border-radius:2px;margin-top:3px;overflow:hidden}
-.thin b{display:block;height:100%;border-radius:2px;background:#4A4F5C}.min+.thin b{background:#FACC15}
-.cta{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:12px;padding:6px 10px;text-align:center;background:#22C55E;color:#04210F;font-weight:800;font-size:15px;text-decoration:none;margin-top:10px}
-.cta.big2{min-height:52px}
-.chip{height:44px;padding:0 14px;border-radius:22px;font-size:13px;font-weight:600;cursor:pointer;border:1px solid #343843;background:transparent}
-.chip.on{background:#ECEEF2;color:#0A0B0D;border-color:#ECEEF2}
-.x{width:44px;height:44px;flex:0 0 auto;border-radius:22px;border:1px solid #343843;background:transparent;cursor:pointer}
-.model{border-top:1px solid #24272F;padding-top:14px}
-footer{font-size:12px;color:#A3A9B5;line-height:1.5}
-.beta{font-size:13px;color:#C9CED8;background:#15171C;border:1px solid #24272F;border-radius:12px;padding:10px 14px}
+.w{max-width:1240px;margin:0 auto;padding:0 20px}
+/* topo */
+.top{background:var(--ink);color:#fff;position:sticky;top:0;z-index:20}
+.top .w{display:flex;align-items:center;gap:20px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;color:#fff}.logo:hover{text-decoration:none}
+.logo .a{font-weight:800;font-style:italic;font-size:14px;display:block;line-height:1}
+.logo .b{font-weight:800;font-style:italic;font-size:23px;color:var(--gold);letter-spacing:-.02em;display:block;line-height:1.05}
+.search{flex:1 1 280px;display:flex;background:#fff;border-radius:10px;overflow:hidden;height:44px}
+.search input{flex:1;border:0;padding:0 14px;outline:none;color:var(--txt);min-width:0}
+.search button{border:0;background:var(--gold);color:#1A1400;font-weight:700;padding:0 18px;cursor:pointer}
+.nav{background:#16213A}
+.nav .w{display:flex;gap:4px;overflow-x:auto}
+.nav a{color:#D5DBE7;padding:11px 14px;font-weight:600;font-size:14px;white-space:nowrap;border-bottom:3px solid transparent}
+.nav a:hover{color:#fff;text-decoration:none}.nav a.on{color:#fff;border-color:var(--gold)}
+/* blocos */
+main{padding:24px 0 48px;min-height:60vh}
+.hero{background:linear-gradient(135deg,#16213A,#1E3A8A);color:#fff;border-radius:18px;padding:32px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
+.hero h1{font-size:32px;line-height:1.15;letter-spacing:-.02em;max-width:560px}
+.hero p{color:#D5DBE7;margin-top:10px;max-width:520px}
+.hero .stats{display:flex;gap:28px;flex-wrap:wrap}
+.hero .stats b{display:block;font-size:30px;color:var(--gold)}.hero .stats span{font-size:13px;color:#D5DBE7}
+.sec{margin-top:36px}
+.sech{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:14px}
+.sech h2{font-size:21px;letter-spacing:-.01em}
+.cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.cat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;align-items:center;gap:14px;color:var(--txt);transition:box-shadow .15s,transform .15s}
+.cat:hover{text-decoration:none;box-shadow:0 8px 24px rgba(15,23,42,.1);transform:translateY(-2px)}
+.cat img{width:64px;height:64px;object-fit:contain}
+.cat b{display:block;font-size:16px}.cat span{font-size:13px;color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px;color:var(--txt);position:relative;transition:box-shadow .15s,transform .15s}
+.card:hover{text-decoration:none;box-shadow:0 8px 24px rgba(15,23,42,.12);transform:translateY(-2px)}
+.card .ph{aspect-ratio:1;display:flex;align-items:center;justify-content:center}
+.card img{max-width:100%;max-height:100%;object-fit:contain}
+.badge{position:absolute;top:10px;left:10px;background:var(--gold);color:#1A1400;font-weight:800;font-size:12px;padding:4px 8px;border-radius:8px}
+.card .nm{font-size:14px;font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:36px}
+.was{font-size:12px;color:var(--mut);text-decoration:line-through;min-height:17px}
+.pr{font-size:22px;font-weight:800;letter-spacing:-.01em}
+.st{font-size:12px;color:var(--mut)}
+/* categoria */
+.crumb{font-size:13px;color:var(--mut);margin-bottom:10px}
+.lay{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+.filt{flex:1 1 220px;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:18px}
+.filt h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin-bottom:8px}
+.filt label{display:flex;align-items:center;gap:8px;min-height:32px;cursor:pointer}
+.filt input[type=checkbox]{width:18px;height:18px;accent-color:var(--brand)}
+.filt input[type=range]{width:100%;accent-color:var(--brand)}
+.res{flex:999 1 560px;min-width:0}
+.bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px}
+.bar select{height:40px;border:1px solid var(--line);border-radius:10px;padding:0 10px;background:#fff}
+.clr{border:0;background:none;color:var(--brand);cursor:pointer;padding:0;text-align:left}
+/* produto */
+.prod{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-wrap:wrap;gap:28px}
+.prod .ph{flex:1 1 320px;display:flex;align-items:center;justify-content:center;min-height:280px}
+.prod .ph img{max-width:100%;max-height:420px;object-fit:contain}
+.prod .inf{flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:14px}
+.prod h1{font-size:24px;line-height:1.25;letter-spacing:-.01em}
+.tbl{border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.tr{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;border-top:1px solid var(--line)}
+.tr:first-child{border-top:0}.tr.win{background:#FEFCE8}
+.tr .off{color:var(--mut);font-size:13px}
+.pill{background:var(--gold);color:#1A1400;font-size:11px;font-weight:800;padding:3px 8px;border-radius:8px;margin-left:8px}
+.buy{display:flex;align-items:center;justify-content:center;min-height:54px;border-radius:12px;background:var(--buy);color:#fff;font-weight:800;font-size:17px;padding:8px 14px;text-align:center}
+.buy:hover{text-decoration:none;background:#166534}
+.note{font-size:13px;color:var(--mut)}
+/* rodape */
+footer{background:var(--ink);color:#C9D1DE;padding:32px 0;font-size:13px}
+footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px}
+footer h3{color:#fff;font-size:14px;margin-bottom:8px}footer a{color:#fff}
+.empty{background:#fff;border:1px dashed #C4CAD4;border-radius:14px;padding:32px;text-align:center;color:var(--mut)}
+@media(max-width:560px){.hero{padding:22px}.hero h1{font-size:25px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{padding:10px}.pr{font-size:19px}.prod{padding:16px}}
 </style>
 </head>
 <body>
-<div class="wrap" id="app"><p class="mut">Carregando o placar…</p></div>
-<noscript><p style="padding:16px">Ative o JavaScript para ver o placar.</p></noscript>
+<div class="top"><div class="w">
+<a class="logo" href="#/" aria-label="Placar do Desconto, página inicial"><svg aria-hidden="true" width="44" height="44" viewBox="0 0 48 48"><rect x="6" y="13" width="28" height="31" rx="6" transform="rotate(-14 20 28)" fill="#C4B5FD"/><rect x="8" y="30" width="14" height="14" rx="4" transform="rotate(-6 15 37)" fill="#FB7185"/><rect x="14" y="34" width="14" height="11" rx="4" fill="#60A5FA"/><g transform="rotate(9 26 26)"><path d="M14 19 L25 7 L36 19 V40 a4 4 0 0 1 -4 4 H18 a4 4 0 0 1 -4 -4 Z" fill="#FACC15"/><circle cx="25" cy="15" r="2.4" fill="#0F172A"/><circle cx="20.5" cy="26" r="2.6" fill="none" stroke="#1A1400" stroke-width="2"/><circle cx="29.5" cy="37" r="2.6" fill="none" stroke="#1A1400" stroke-width="2"/><path d="M30 24 L20 39" stroke="#1A1400" stroke-width="2.2" stroke-linecap="round"/></g></svg><span><span class="a">Placar do</span><span class="b">Desconto</span></span></a>
+<form class="search" id="sf" role="search"><label for="q" style="position:absolute;left:-9999px">Buscar produto</label><input id="q" type="search" placeholder="O que você quer comprar? Ex.: iPhone 16, TV 65, geladeira" autocomplete="off"><button type="submit">Buscar</button></form>
+</div><nav class="nav" aria-label="Categorias"><div class="w" id="nav"></div></nav></div>
+<main><div class="w" id="app"><p>Carregando ofertas…</p></div></main>
+<footer><div class="w cols">
+<div><h3>Como funciona</h3><p>Acompanhamos o preço dos mesmos produtos nas maiores lojas e mostramos onde está mais barato. O desconto exibido é o anunciado pela própria loja.</p></div>
+<div><h3>Transparência</h3><p>Usamos links de afiliado: se você comprar por eles, a loja nos paga uma comissão, sem custo extra para você. Isso nunca altera a ordem dos preços.</p></div>
+<div><h3>Atenção aos preços</h3><p id="upd">Os preços mudam a qualquer momento. Confira sempre o valor final na página da loja.</p><p style="margin-top:8px">Versão beta: novas lojas e categorias a caminho.</p></div>
+</div></footer>
 <script>
 (function(){
-var D=null, st={cat:null,budget:null,sel:null,filter:'Todos',mode:'preco'};
-var app=document.getElementById('app');
+var D,app=document.getElementById('app'),nav=document.getElementById('nav'),F={};
+var IMG='https://http2.mlstatic.com/D_NQ_NP_2X_',TH='https://http2.mlstatic.com/D_Q_NP_2X_';
+window.__fb=function(im,id){im.onerror=null;im.src=IMG+id+'-F.webp'};
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function brl(v){return 'R$ '+Math.round(v).toLocaleString('pt-BR')}
-var LOGO='<a class="logo" href="./" aria-label="Placar do Desconto"><svg aria-hidden="true" width="46" height="46" viewBox="0 0 48 48"><rect x="6" y="13" width="28" height="31" rx="6" transform="rotate(-14 20 28)" fill="#C4B5FD"/><rect x="8" y="30" width="14" height="14" rx="4" transform="rotate(-6 15 37)" fill="#FB7185"/><rect x="14" y="34" width="14" height="11" rx="4" fill="#60A5FA"/><g transform="rotate(9 26 26)"><path d="M14 19 L25 7 L36 19 V40 a4 4 0 0 1 -4 4 H18 a4 4 0 0 1 -4 -4 Z" fill="#FACC15"/><circle cx="25" cy="15" r="2.4" fill="#0A0B0D"/><circle cx="20.5" cy="26" r="2.6" fill="none" stroke="#1A1400" stroke-width="2"/><circle cx="29.5" cy="37" r="2.6" fill="none" stroke="#1A1400" stroke-width="2"/><path d="M30 24 L20 39" stroke="#1A1400" stroke-width="2.2" stroke-linecap="round"/></g></svg><span><span class="a">Placar do</span><br><span class="b">Desconto</span></span></a>';
+function norm(s){return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()}
+function best(it){var b=null;D.stores.forEach(function(s){var o=it.offers[s.id];if(o&&(!b||o.price<b.o.price))b={s:s,o:o}});return b}
+function disc(o){return o.orig&&o.orig>o.price?Math.round((1-o.price/o.orig)*100):0}
+function cat(id){return D.categories.filter(function(c){return c.id===id})[0]}
+function inCat(id){return D.items.filter(function(i){return i.cat===id})}
+function card(it){var b=it.b,d=disc(b.o);
+  return '<a class="card" href="#/p/'+it.id+'">'+(d?'<span class="badge">'+d+'% off</span>':'')+'<div class="ph"><img loading="lazy" src="'+TH+it.img+'-E.webp" onerror="__fb(this,\''+it.img+'\')" alt=""></div><div class="nm">'+esc(it.name)+'</div><div class="was num">'+(d?brl(b.o.orig):'')+'</div><div class="pr num">'+brl(b.o.price)+'</div><div class="st">'+(it.n>1?'menor preço entre '+it.n+' lojas: ':'')+esc(b.s.name)+'</div></a>';}
+function grid(list){return '<div class="grid">'+list.map(card).join('')+'</div>'}
 
-function prep(cat){
-  var stores=D.stores.filter(function(s){return cat.items.some(function(m){return m.offers[s.id]})});
-  var items=cat.items.map(function(m){
-    var ps=stores.map(function(s){return m.offers[s.id]?m.offers[s.id].price:null}).filter(function(p){return p!==null});
-    if(!ps.length)return null;
-    var min=Math.min.apply(null,ps);
-    return {m:m,min:min,max:Math.max.apply(null,ps),avg:ps.reduce(function(a,b){return a+b},0)/ps.length,
-      minStore:stores.filter(function(s){return m.offers[s.id]&&m.offers[s.id].price===min})[0]};
-  }).filter(Boolean);
-  return {stores:stores,items:items};
+function home(){
+  var h='<section class="hero"><div><h1>Quem tem o menor preço agora?</h1><p>Compare o mesmo produto nas maiores lojas e veja onde está mais barato antes de comprar.</p></div><div class="stats"><div><b class="num">'+D.items.length+'</b><span>produtos acompanhados</span></div><div><b class="num">'+Math.max.apply(null,D.items.map(function(i){return disc(i.b.o)}))+'%</b><span>maior desconto anunciado</span></div></div></section>';
+  h+='<section class="sec"><div class="sech"><h2>Categorias</h2></div><div class="cats">'+D.categories.map(function(c){var l=inCat(c.id),mn=Math.min.apply(null,l.map(function(i){return i.b.o.price}));return '<a class="cat" href="#/c/'+c.id+'"><img loading="lazy" src="'+TH+l[0].img+'-E.webp" onerror="__fb(this,\''+l[0].img+'\')" alt=""><span><b>'+esc(c.label)+'</b><span>'+l.length+' produtos · a partir de '+brl(mn)+'</span></span></a>'}).join('')+'</div></section>';
+  var top=D.items.slice().sort(function(a,b){return disc(b.b.o)-disc(a.b.o)}).slice(0,10);
+  h+='<section class="sec"><div class="sech"><h2>Maiores descontos anunciados</h2></div>'+grid(top)+'</section>';
+  D.categories.forEach(function(c){var l=inCat(c.id).sort(function(a,b){return a.b.o.price-b.b.o.price}).slice(0,5);
+    h+='<section class="sec"><div class="sech"><h2>'+esc(c.label)+' mais em conta</h2><a href="#/c/'+c.id+'">Ver todos</a></div>'+grid(l)+'</section>'});
+  return h;
 }
-function priceRows(x,stores){
-  return stores.map(function(s){var o=x.m.offers[s.id],isMin=o&&o.price===x.min;
-    return '<div class="pr'+(isMin?' min':'')+'"><span class="n">'+esc(s.name)+'</span><span class="v num">'+(o?brl(o.price):'Sem oferta')+'</span></div><div class="thin"><b style="width:'+(o?Math.round(x.min/o.price*100):0)+'%"></b></div>';
-  }).join('');
+function category(id){
+  var c=cat(id);if(!c)return notFound();var all=inCat(id),f=F[id]=F[id]||{brands:{},specs:{},max:null,sort:'preco'};
+  var prices=all.map(function(i){return i.b.o.price}),mn=Math.floor(Math.min.apply(null,prices)/100)*100,mx=Math.ceil(Math.max.apply(null,prices)/100)*100;
+  var cap=f.max!==null&&f.max<mx;
+  function uniq(k){return all.map(function(i){return i[k]}).filter(function(v,i,a){return v&&a.indexOf(v)===i}).sort(function(a,b){return a.localeCompare(b,'pt-BR',{numeric:true})})}
+  var on=function(o){return Object.keys(o).filter(function(k){return o[k]})};
+  var bs=on(f.brands),ss=on(f.specs);
+  var list=all.filter(function(i){return (!bs.length||bs.indexOf(i.brand)>=0)&&(!ss.length||ss.indexOf(i.spec)>=0)&&(!cap||i.b.o.price<=f.max)});
+  list.sort(f.sort==='desc'?function(a,b){return disc(b.b.o)-disc(a.b.o)}:f.sort==='caro'?function(a,b){return b.b.o.price-a.b.o.price}:function(a,b){return a.b.o.price-b.b.o.price});
+  function checks(k,key){return uniq(k).map(function(v){return '<label><input type="checkbox" data-f="'+key+'" value="'+esc(v)+'"'+(f[key][v]?' checked':'')+'>'+esc(v)+'</label>'}).join('')}
+  var h='<div class="crumb"><a href="#/">Início</a> › '+esc(c.label)+'</div><div class="lay"><aside class="filt" aria-label="Filtros"><div><h3>Preço até</h3><b id="mxl" class="num">'+(cap?brl(f.max):'Sem limite')+'</b><input id="mx" type="range" aria-label="Preço máximo" min="'+mn+'" max="'+mx+'" step="100" value="'+(cap?f.max:mx)+'"></div><div><h3>Marca</h3>'+checks('brand','brands')+'</div><div><h3>'+esc(c.spec)+'</h3>'+checks('spec','specs')+'</div><button class="clr" data-clear="1">Limpar filtros</button></aside><section class="res"><div class="bar"><h1 style="font-size:24px">'+esc(c.label)+' <span style="font-size:14px;font-weight:500;color:var(--mut)">'+list.length+' de '+all.length+'</span></h1><label>Ordenar: <select id="so"><option value="preco"'+(f.sort==='preco'?' selected':'')+'>Menor preço</option><option value="desc"'+(f.sort==='desc'?' selected':'')+'>Maior desconto anunciado</option><option value="caro"'+(f.sort==='caro'?' selected':'')+'>Maior preço</option></select></label></div>'+(list.length?grid(list):'<div class="empty">Nenhum produto com esses filtros. <button class="clr" data-clear="1">Limpar filtros</button></div>')+'</section></div>';
+  return h;
 }
-function cta(x,cls){var o=x.m.offers[x.minStore.id];
-  return '<a class="cta '+(cls||'')+'" href="'+esc(o.link)+'" target="_blank" rel="sponsored noopener">Ver '+(x.minStore.id==='ml'?'no ':'na ')+esc(x.minStore.name)+' por '+brl(x.min)+'</a>';}
+function product(id){
+  var it=D.items.filter(function(i){return i.id===id})[0];if(!it)return notFound();var c=cat(it.cat),b=it.b,d=disc(b.o);
+  var rows=D.stores.map(function(s){var o=it.offers[s.id];if(!o)return '<div class="tr"><span>'+esc(s.name)+'</span><span class="off">em breve</span></div>';var w=o.price===b.o.price;return '<div class="tr'+(w?' win':'')+'"><span><b>'+esc(s.name)+'</b>'+(w&&it.n>1?'<span class="pill">MENOR PREÇO</span>':'')+(disc(o)?'<span class="off"> · '+disc(o)+'% off anunciado</span>':'')+'</span><a class="num" style="font-weight:800;color:var(--txt)" href="'+esc(o.link)+'" target="_blank" rel="sponsored noopener">'+brl(o.price)+'</a></div>'}).join('');
+  var rel=inCat(it.cat).filter(function(i){return i.id!==it.id}).sort(function(a,x){return Math.abs(a.b.o.price-b.o.price)-Math.abs(x.b.o.price-b.o.price)}).slice(0,5);
+  return '<div class="crumb"><a href="#/">Início</a> › <a href="#/c/'+c.id+'">'+esc(c.label)+'</a> › '+esc(it.brand)+'</div><article class="prod"><div class="ph"><img src="'+IMG+it.img+'-F.webp" alt="'+esc(it.name)+'"></div><div class="inf"><div><div class="note">'+esc(it.brand)+(it.spec?' · '+esc(c.spec)+': '+esc(it.spec):'')+'</div><h1>'+esc(it.name)+'</h1></div><div>'+(d?'<span class="was num" style="font-size:14px">'+brl(b.o.orig)+'</span> <span class="pill" style="margin:0">'+d+'% off anunciado</span>':'')+'<div class="num" style="font-size:36px;font-weight:800;letter-spacing:-.02em">'+brl(b.o.price)+'</div><div class="note">menor preço encontrado, '+esc(b.s.art)+' '+esc(b.s.name)+'</div></div><a class="buy" href="'+esc(b.o.link)+'" target="_blank" rel="sponsored noopener">Ver oferta '+esc(b.s.art)+' '+esc(b.s.name)+'</a><div><h2 style="font-size:15px;margin-bottom:8px">Preço em cada loja</h2><div class="tbl">'+rows+'</div></div><p class="note">Preço coletado em '+D.updated.split('-').reverse().join('/')+'. Pode variar conforme a forma de pagamento: confira o valor final na loja.</p></div></article><section class="sec"><div class="sech"><h2>Na mesma faixa de preço</h2><a href="#/c/'+c.id+'">Ver '+esc(c.label.toLowerCase())+'</a></div>'+grid(rel)+'</section>';
+}
+function search(q){var t=norm(q).split(/\s+/).filter(Boolean);var l=D.items.filter(function(i){var s=norm(i.name+' '+i.brand+' '+i.spec+' '+cat(i.cat).label);return t.every(function(w){return s.indexOf(w)>=0})});
+  return '<div class="crumb"><a href="#/">Início</a> › Busca</div><div class="sech"><h1 style="font-size:24px">Resultados para "'+esc(q)+'"</h1><span class="note">'+l.length+' produtos</span></div>'+(l.length?grid(l):'<div class="empty">Não encontramos esse produto ainda. Veja as <a href="#/">categorias disponíveis</a>.</div>');}
+function notFound(){return '<div class="empty">Página não encontrada. <a href="#/">Voltar ao início</a></div>'}
 
-function render(){
-  var cat=D.categories.filter(function(c){return c.id===st.cat})[0]||D.categories[0];
-  var P=prep(cat), all=P.items, stores=P.stores, multi=stores.length>1;
-  var rmin=Math.ceil(Math.min.apply(null,all.map(function(x){return x.min}))/100)*100;
-  var rmax=Math.ceil(Math.max.apply(null,all.map(function(x){return x.min}))/100)*100;
-  var capped=st.budget!==null&&st.budget<rmax;
-  var items=capped?all.filter(function(x){return x.min<=st.budget}):all;
-  var total=items.length, h='';
-
-  h+='<header>'+LOGO+'<div class="pills" role="tablist" aria-label="Categorias">'+D.categories.map(function(c){return '<button class="pill'+(c.id===cat.id?' on':'')+'" role="tab" aria-selected="'+(c.id===cat.id)+'" data-cat="'+c.id+'">'+esc(c.label)+'</button>'}).join('')+'</div><div class="live"><i aria-hidden="true"></i>Atualizado em '+esc(D.updated.split('-').reverse().join('/'))+'</div></header>';
-
-  // placar
-  var tally=stores.map(function(s){return {s:s,w:items.filter(function(x){return x.minStore.id===s.id}).length}}).sort(function(a,b){return b.w-a.w});
-  h+='<section class="card score" aria-label="Placar da categoria">';
-  if(multi&&total){
-    var L=tally[0],S=tally[1];
-    h+='<div class="top"><div><div class="mut" style="font-size:13px">1º lugar</div><span class="g nm" style="color:'+L.s.color+'">'+esc(L.s.name)+'</span> <span class="mut" style="font-size:14px">'+L.w+' de '+total+' menores preços</span></div><h1 class="g">'+esc(L.s.name)+' lidera em '+esc(cat.lower)+'</h1><div style="text-align:right"><div class="mut" style="font-size:13px">2º lugar</div>'+(S&&S.w?'<span class="mut" style="font-size:14px">'+S.w+' de '+total+'</span> <span class="g nm" style="color:'+S.s.color+'">'+esc(S.s.name)+'</span>':'')+'</div></div>';
-    h+='<div class="bar">'+tally.filter(function(t){return t.w}).map(function(t){return '<div class="g num" style="flex:'+t.w+' 1 0;background:'+t.s.color+';color:'+t.s.ink+'">'+Math.round(t.w/total*100)+'%</div>'}).join('')+'</div>';
-    h+='<div class="leg">'+tally.filter(function(t){return t.w}).map(function(t){return '<span><i class="dot" style="background:'+t.s.color+'"></i>'+esc(t.s.name)+' · '+t.w+(t.w===1?' modelo':' modelos')+'</span>'}).join('')+'<span class="mut" style="margin-left:auto">'+(capped?total+' de '+all.length+' modelos cabem no seu teto':all.length+' modelos acompanhados')+'</span></div>';
-  }else{
-    h+='<h1 class="g" style="font-size:22px">'+esc(cat.label)+': '+total+' '+(total===1?'modelo acompanhado':'modelos acompanhados')+'</h1><p class="mut" style="margin:6px 0 0;font-size:14px">Por enquanto com preços de '+stores.map(function(s){return esc(s.name)}).join(', ')+'. O placar entre lojas aparece aqui assim que entrarem as próximas.</p>';
-  }
-  h+='</section><div class="cols">';
-
-  // esquerda
-  if(multi&&total){
-    var gap=items.reduce(function(a,x){return a+(x.max-x.min)},0)/total;
-    var idx=stores.map(function(s){var r=items.filter(function(x){return x.m.offers[s.id]}).map(function(x){return (x.m.offers[s.id].price/x.avg-1)*100});return {s:s,v:r.length?r.reduce(function(a,b){return a+b},0)/r.length:0}}).sort(function(a,b){return a.v-b.v});
-    var mx=Math.max.apply(null,idx.map(function(i){return Math.abs(i.v)}).concat([0.1]));
-    h+='<aside class="card side" aria-label="Resumo"><div><h2 style="font-size:16px">Vale a pena comparar?</h2><div class="mut" style="font-size:13px">Diferença no mesmo modelo, entre lojas</div></div><div><div class="g big num">'+brl(gap)+'</div><div style="font-size:14px;color:#C9CED8;margin-top:6px;line-height:1.45">é quanto separa, em média, a loja mais barata da mais cara em '+esc(cat.lower)+'.</div></div><div class="sep"><h2 style="font-size:16px">Qual loja está mais em conta</h2><div class="mut" style="font-size:13px">Preço médio contra a média das lojas, em %</div>'+idx.map(function(i){var c=i.v<0;return '<div class="ix"><b>'+esc(i.s.name)+'</b><div class="track"><b style="width:'+Math.max(6,Math.round(Math.abs(i.v)/mx*100))+'%;background:'+(c?'#FACC15':'#4A4F5C')+'"></b></div><b class="num" style="text-align:right;color:'+(c?'#FACC15':'#A3A9B5')+'">'+(i.v>0?'+':i.v<0?'−':'')+Math.abs(i.v).toFixed(1).replace('.',',')+'</b></div>'}).join('')+'</div></aside>';
-  }
-
-  // matriz
-  var sorted=items.slice().sort(function(a,b){return a.min-b.min}), bands=[];
-  sorted.forEach(function(x,i){var b=Math.min(3,Math.floor(i*4/sorted.length));(bands[b]=bands[b]||[]).push(x)});
-  bands=bands.filter(Boolean);
-  var colw=multi?'minmax(0,1fr)':'minmax(0,360px)';
-  var grid='grid-template-columns:92px repeat('+stores.length+','+colw+');--minw:'+(92+stores.length*86)+'px';
-  h+='<section class="mid" aria-label="Matriz de ofertas"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px"><div class="pills"><button class="pill'+(st.mode==='preco'?' on':'')+'" data-mode="preco">Menor preço</button><button class="pill'+(st.mode==='desc'?' on':'')+'" data-mode="desc">Desconto anunciado</button></div><span class="mut" style="font-size:13px">Toque numa célula para abrir os modelos · % off é o desconto anunciado pela loja</span></div>';
-  if(bands.length){
-    h+='<div class="mx"><div class="row" style="'+grid+'"><div class="mut" style="padding:8px;font-size:10px;font-weight:600;letter-spacing:.08em;align-self:center">FAIXA</div>'+stores.map(function(s){return '<div class="hd"><i class="dot" style="width:8px;height:8px;background:'+s.color+'"></i>'+esc(s.name)+'</div>'}).join('')+'</div>';
-    bands.forEach(function(g,b){
-      var lo=g[0].min,hi=g[g.length-1].min;
-      var cells=stores.map(function(s){return g.map(function(x){return x.m.offers[s.id]}).filter(Boolean)});
-      var rowMin=Math.min.apply(null,cells.filter(function(c){return c.length}).map(function(c){return Math.min.apply(null,c.map(function(o){return o.price}))}));
-      h+='<div class="row" style="'+grid+'"><div class="rl num"><b>'+brl(lo)+'</b>'+(lo===hi?'':'<span>a '+brl(hi)+'</span>')+'</div>';
-      cells.forEach(function(c,j){
-        if(!c.length){h+='<div class="cw"><div class="cell none">Sem oferta</div></div>';return}
-        var p=Math.min.apply(null,c.map(function(o){return o.price})),d=Math.round(c.reduce(function(a,o){return a+o.disc},0)/c.length),over=Math.round((p/rowMin-1)*100);
-        var cls='cell',t,bigT,sm,sty='';
-        if(st.sel&&st.sel.b===b&&st.sel.j===j)cls+=' sel';
-        if(st.mode==='preco'){bigT=brl(p);sm=d>0?d+'% off':'sem desconto';if(p===rowMin){cls+=' win';t=multi?'MENOR PREÇO':'A PARTIR DE'}else{t='+'+over+'%';if(over<=5)cls+=' near'}}
-        else{t='ANUNCIADO';bigT=d+'%';sm=brl(p);sty='background:rgba(37,99,235,'+(0.12+Math.max(0,d-8)/38*0.78).toFixed(2)+');color:#fff'}
-        h+='<div class="cw"><button class="'+cls+'" style="'+sty+'" data-b="'+b+'" data-j="'+j+'" aria-label="'+esc(stores[j].name)+', faixa a partir de '+brl(lo)+': menor preço '+brl(p)+'"><span class="t">'+t+'</span><span class="p g num">'+bigT+'</span><span class="s num">'+sm+'</span></button></div>';
-      });
-      h+='</div>';
-    });
-    h+='</div>';
-  }else h+='<div class="card" style="text-align:center;border-style:dashed">Nenhum modelo cabe nesse teto. Arraste o controle para a direita.</div>';
-  h+='<div class="card teto"><label for="teto" class="mut" style="font-size:13px">Seu teto</label><span id="tetoL" class="g num" style="font-size:16px;min-width:96px">'+(capped?brl(st.budget):'Sem limite')+'</span><input id="teto" type="range" min="'+rmin+'" max="'+rmax+'" step="100" value="'+(capped?st.budget:rmax)+'"><span class="mut num" style="font-size:12px">até '+brl(rmax)+'</span></div></section>';
-
-  // direita
-  h+='<aside class="card det" aria-label="Detalhe">';
-  var sel=st.sel&&bands[st.sel.b]?st.sel:null;
-  if(sel){
-    var g=bands[sel.b],key=cat.filterBy,opts=['Todos'].concat(g.map(function(x){return x.m[key]}).filter(function(v,i,a){return a.indexOf(v)===i}));
-    h+='<div style="display:flex;justify-content:space-between;gap:10px"><div><div class="mut" style="font-size:12px">'+esc(cat.label)+' · '+brl(g[0].min)+(g.length>1?' a '+brl(g[g.length-1].min):'')+'</div><h2 class="g" style="font-size:20px">'+esc(stores[sel.j].name)+'</h2><div class="mut" style="font-size:13px">'+g.length+(g.length===1?' modelo nessa faixa':' modelos nessa faixa')+'</div></div><button class="x" data-close="1" aria-label="Fechar detalhe">✕</button></div>';
-    if(opts.length>2)h+='<div style="display:flex;flex-wrap:wrap;gap:6px">'+opts.map(function(o){return '<button class="chip'+(st.filter===o?' on':'')+'" data-f="'+esc(o)+'">'+esc(o)+'</button>'}).join('')+'</div>';
-    g.filter(function(x){return st.filter==='Todos'||x.m[key]===st.filter}).forEach(function(x){
-      h+='<div class="model"><b style="font-size:16px">'+esc(x.m.name)+'</b><div class="mut" style="font-size:12px">'+esc(x.m.brand)+' · '+esc(cat.spec)+': '+esc(x.m.spec)+'</div>'+priceRows(x,stores)+cta(x)+'</div>';
-    });
-  }else if(total){
-    var hero=null;
-    if(multi)items.forEach(function(x){var ps=stores.map(function(s){return x.m.offers[s.id]}).filter(Boolean).map(function(o){return o.price}).sort(function(a,b){return a-b});if(ps.length>1&&(!hero||ps[1]-ps[0]>hero.g))hero={g:ps[1]-ps[0],x:x}});
-    if(!hero)items.forEach(function(x){var d=x.m.offers[x.minStore.id].disc;if(!hero||d>hero.d)hero={d:d,x:x}});
-    var x=hero.x;
-    h+='<span class="tag">'+(hero.g!==undefined?'MAIOR VANTAGEM AGORA':'MAIOR DESCONTO ANUNCIADO')+'</span><div><h2 class="g" style="font-size:20px;line-height:1.2">'+esc(x.m.name)+'</h2><div class="mut" style="font-size:13px;margin-top:4px">'+esc(x.m.brand)+' · '+esc(cat.spec)+': '+esc(x.m.spec)+'</div></div><div>'+priceRows(x,stores)+'</div><div style="font-size:14px;color:#C9CED8">'+(hero.g!==undefined?'Você economiza <b class="num" style="color:#FDE68A">'+brl(hero.g)+'</b> contra a segunda loja.':'A loja anuncia <b class="num" style="color:#FDE68A">'+hero.d+'% de desconto</b> nesse modelo.')+'</div>'+cta(x,'big2');
-  }
-  h+='</aside></div>';
-  h+='<div class="beta">Versão beta. Estamos adicionando lojas e categorias para o placar da Black Friday 2026.</div>';
-  h+='<footer>Os preços são coletados nas lojas e podem mudar a qualquer momento: confira sempre o valor final na página da loja. O desconto exibido é o anunciado pela própria loja. Usamos links de afiliado: se você comprar por eles, a loja nos paga uma comissão, sem custo extra para você, e isso nunca altera a ordem do placar.</footer>';
+function route(keep){
+  var p=decodeURIComponent(location.hash.replace(/^#\/?/,'')).split('/'),h,cur='';
+  if(p[0]==='c'){h=category(p[1]);cur=p[1]}else if(p[0]==='p')h=product(p[1]);else if(p[0]==='busca')h=search(p.slice(1).join('/'));else h=home();
   app.innerHTML=h;
+  nav.innerHTML='<a href="#/"'+(!p[0]?' class="on"':'')+'>Início</a>'+D.categories.map(function(c){return '<a href="#/c/'+c.id+'"'+(c.id===cur?' class="on"':'')+'>'+esc(c.label)+'</a>'}).join('');
+  var it=p[0]==='p'&&D.items.filter(function(i){return i.id===p[1]})[0];
+  document.title=(it?it.name+' | ':cur&&cat(cur)?cat(cur).label+' | ':'')+'Placar do Desconto';
+  if(!keep)window.scrollTo(0,0);
 }
-
-app.addEventListener('click',function(e){
-  var t=e.target.closest('[data-cat],[data-mode],[data-b],[data-close],[data-f]');if(!t)return;
-  if(t.dataset.cat){st.cat=t.dataset.cat;st.sel=null;st.filter='Todos';st.budget=null}
-  else if(t.dataset.mode)st.mode=t.dataset.mode;
-  else if(t.dataset.b!==undefined){st.sel={b:+t.dataset.b,j:+t.dataset.j};st.filter='Todos'}
-  else if(t.dataset.close)st.sel=null;
-  else if(t.dataset.f)st.filter=t.dataset.f;
-  render();
-});
-app.addEventListener('input',function(e){if(e.target.id==='teto'){var v=+e.target.value;document.getElementById('tetoL').textContent=v>=+e.target.max?'Sem limite':brl(v)}});
-app.addEventListener('change',function(e){if(e.target.id==='teto'){st.budget=+e.target.value;st.sel=null;render();var n=document.getElementById('teto');if(n)n.focus()}});
-
+window.addEventListener('hashchange',function(){route()});
+document.getElementById('sf').addEventListener('submit',function(e){e.preventDefault();var q=document.getElementById('q').value.trim();if(q)location.hash='#/busca/'+encodeURIComponent(q)});
+app.addEventListener('change',function(e){var id=location.hash.split('/')[2],f=F[id];if(!f)return;var t=e.target;
+  if(t.dataset.f){f[t.dataset.f][t.value]=t.checked}else if(t.id==='so'){f.sort=t.value}else if(t.id==='mx'){f.max=+t.value}else return;route(true)});
+app.addEventListener('input',function(e){if(e.target.id==='mx'){var v=+e.target.value;document.getElementById('mxl').textContent=v>=+e.target.max?'Sem limite':brl(v)}});
+app.addEventListener('click',function(e){if(e.target.dataset.clear){var id=location.hash.split('/')[2];delete F[id];route(true)}});
 fetch('data.json?v='+Date.now()).then(function(r){return r.json()}).then(function(d){
-  d.categories=d.categories.filter(function(c){return c.items.some(function(m){return Object.keys(m.offers).length})});
-  D=d;st.cat=d.categories[0].id;render();
-}).catch(function(){app.innerHTML='<p>Não foi possível carregar os preços agora. Tente de novo em instantes.</p>'});
+  d.items=d.items.filter(function(i){return Object.keys(i.offers).length});D=d;
+  d.items.forEach(function(i){i.b=best(i);i.n=Object.keys(i.offers).length});
+  d.categories=d.categories.filter(function(c){return inCat(c.id).length});
+  document.getElementById('upd').textContent='Preços coletados em '+d.updated.split('-').reverse().join('/')+'. Eles mudam a qualquer momento: confira sempre o valor final na página da loja.';
+  route();
+}).catch(function(){app.innerHTML='<div class="empty">Não foi possível carregar as ofertas agora. Tente de novo em instantes.</div>'});
 })();
 </script>
 </body>

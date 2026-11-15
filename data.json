@@ -1,24 +1,694 @@
 {
-  "updated": "2026-11-11",
-  "stores": [
-    {"id": "ml", "name": "Mercado Livre", "color": "#FACC15", "ink": "#1A1400"},
-    {"id": "mg", "name": "Magalu", "color": "#60A5FA", "ink": "#06182E"},
-    {"id": "am", "name": "Amazon", "color": "#2DD4BF", "ink": "#03201C"},
-    {"id": "cb", "name": "Casas Bahia", "color": "#C4B5FD", "ink": "#170F33"},
-    {"id": "sp", "name": "Shopee", "color": "#FB7185", "ink": "#2B0610"}
-  ],
-  "categories": [
-    {"id": "cel", "label": "Celulares", "lower": "celulares", "spec": "Armazenamento", "filterBy": "name", "items": [
-      {"name": "iPhone 16 128 GB", "brand": "Apple", "spec": "128 GB", "offers": {"ml": {"price": 4700, "disc": 39, "link": "https://meli.la/1wovzo8"}}},
-      {"name": "iPhone 16 256 GB", "brand": "Apple", "spec": "256 GB", "offers": {"ml": {"price": 5313, "disc": 44, "link": "https://meli.la/2gYBsGo"}}},
-      {"name": "iPhone 15 128 GB", "brand": "Apple", "spec": "128 GB", "offers": {"ml": {"price": 3779, "disc": 47, "link": "https://meli.la/1YX5Sv4"}}},
-      {"name": "Galaxy S25 256 GB", "brand": "Samsung", "spec": "256 GB", "offers": {"ml": {"price": 3656, "disc": 39, "link": "https://meli.la/1cMKJ9Q"}}},
-      {"name": "Galaxy S24 FE 128 GB", "brand": "Samsung", "spec": "128 GB", "offers": {"ml": {"price": 3196, "disc": 0, "link": "https://meli.la/2c8cgkt"}}},
-      {"name": "Galaxy A56 256 GB", "brand": "Samsung", "spec": "256 GB", "offers": {"ml": {"price": 2498, "disc": 37, "link": "https://meli.la/1uDjLej"}}},
-      {"name": "Galaxy A16 128 GB", "brand": "Samsung", "spec": "128 GB", "offers": {"ml": {"price": 1454, "disc": 27, "link": "https://meli.la/2uxRMJB"}}},
-      {"name": "Moto G85 256 GB", "brand": "Motorola", "spec": "256 GB", "offers": {"ml": {"price": 2076, "disc": 0, "link": "https://meli.la/1td81no"}}},
-      {"name": "Moto G35 128 GB", "brand": "Motorola", "spec": "128 GB", "offers": {"ml": {"price": 1125, "disc": 0, "link": "https://meli.la/1LrjyLf"}}},
-      {"name": "Redmi Note 14 256 GB", "brand": "Xiaomi", "spec": "256 GB", "offers": {"ml": {"price": 2799, "disc": 0, "link": "https://meli.la/2gPTUm8"}}}
-    ]}
-  ]
+ "updated": "2026-11-14",
+ "stores": [
+  {
+   "id": "ml",
+   "name": "Mercado Livre",
+   "art": "no"
+  },
+  {
+   "id": "mg",
+   "name": "Magalu",
+   "art": "na"
+  },
+  {
+   "id": "am",
+   "name": "Amazon",
+   "art": "na"
+  },
+  {
+   "id": "cb",
+   "name": "Casas Bahia",
+   "art": "na"
+  },
+  {
+   "id": "sp",
+   "name": "Shopee",
+   "art": "na"
+  }
+ ],
+ "categories": [
+  {
+   "id": "cel",
+   "label": "Celulares",
+   "spec": "Armazenamento"
+  },
+  {
+   "id": "tv",
+   "label": "TVs",
+   "spec": "Tamanho"
+  },
+  {
+   "id": "gel",
+   "label": "Geladeiras",
+   "spec": "Capacidade"
+  },
+  {
+   "id": "ar",
+   "label": "Ar-condicionado",
+   "spec": "Potência"
+  }
+ ],
+ "items": [
+  {
+   "cat": "tv",
+   "name": "Samsung Smart TV 65\" Mini LED 4K M75H",
+   "brand": "Samsung",
+   "spec": "65\"",
+   "img": "857357-MLA116062135096_092026",
+   "offers": {
+    "ml": {
+     "price": 3754,
+     "orig": 5699,
+     "link": "https://meli.la/2HqQzQL",
+     "seller": "Samsung"
+    }
+   },
+   "id": "samsung-smart-tv-65-mini-led-4k-m75h"
+  },
+  {
+   "cat": "tv",
+   "name": "Samsung Smart Tv 85 Mini Led 4k M75h",
+   "brand": "Samsung",
+   "spec": "85\"",
+   "img": "873547-MLA117543095721_092026",
+   "offers": {
+    "ml": {
+     "price": 7577,
+     "orig": 10999,
+     "link": "https://meli.la/2pfGPcV",
+     "seller": "Samsung"
+    }
+   },
+   "id": "samsung-smart-tv-85-mini-led-4k-m75h"
+  },
+  {
+   "cat": "tv",
+   "name": "Samsung Smart TV 75\" Mini LED 4K M75H",
+   "brand": "Samsung",
+   "spec": "75\"",
+   "img": "810149-MLA118174573239_092026",
+   "offers": {
+    "ml": {
+     "price": 5182,
+     "orig": 7899,
+     "link": "https://meli.la/2rPyUeG",
+     "seller": "Samsung"
+    }
+   },
+   "id": "samsung-smart-tv-75-mini-led-4k-m75h"
+  },
+  {
+   "cat": "tv",
+   "name": "Samsung Smart TV 65\" Crystal UHD 4K U8000H",
+   "brand": "Samsung",
+   "spec": "65\"",
+   "img": "867720-MLA118173631553_092026",
+   "offers": {
+    "ml": {
+     "price": 3599,
+     "orig": 4499,
+     "link": "https://meli.la/1M1BiYY",
+     "seller": "Samsung"
+    }
+   },
+   "id": "samsung-smart-tv-65-crystal-uhd-4k-u8000h"
+  },
+  {
+   "cat": "tv",
+   "name": "Samsung Smart TV 85\" Crystal UHD 4K U8000H",
+   "brand": "Samsung",
+   "spec": "85\"",
+   "img": "848385-MLA118173880203_092026",
+   "offers": {
+    "ml": {
+     "price": 7297,
+     "orig": 9399,
+     "link": "https://meli.la/2tp2Kkr",
+     "seller": "Samsung"
+    }
+   },
+   "id": "samsung-smart-tv-85-crystal-uhd-4k-u8000h"
+  },
+  {
+   "cat": "tv",
+   "name": "Samsung Smart TV 55\" Crystal UHD 4K U8000H",
+   "brand": "Samsung",
+   "spec": "55\"",
+   "img": "701664-MLA118173217263_092026",
+   "offers": {
+    "ml": {
+     "price": 2808,
+     "orig": 3399,
+     "link": "https://meli.la/22vbhA4",
+     "seller": "Samsung"
+    }
+   },
+   "id": "samsung-smart-tv-55-crystal-uhd-4k-u8000h"
+  },
+  {
+   "cat": "tv",
+   "name": "Smart Tv Samsung Led 55 Lh55befh4ggxzd Led Crystal Processor 4k Uhd",
+   "brand": "Samsung",
+   "spec": "55\"",
+   "img": "807592-MLA96970001108_112025",
+   "offers": {
+    "ml": {
+     "price": 2629,
+     "orig": 3999,
+     "link": "https://meli.la/1i8zhKU",
+     "seller": "Turum"
+    }
+   },
+   "id": "smart-tv-samsung-led-55-lh55befh4ggxzd-led-crystal-processor"
+  },
+  {
+   "cat": "tv",
+   "name": "Smart TV 4K 65\" LG NANO UHD AI NU850 2026 Processador α7 Ger9 HDR10",
+   "brand": "LG",
+   "spec": "65\"",
+   "img": "929353-MLA116657226289_082026",
+   "offers": {
+    "ml": {
+     "price": 3805,
+     "orig": 6499,
+     "link": "https://meli.la/2Gjk3BX",
+     "seller": "Vikings"
+    }
+   },
+   "id": "smart-tv-4k-65-lg-nano-uhd-ai-nu850-2026-processador-7-ger9-"
+  },
+  {
+   "cat": "tv",
+   "name": "Smart TV 4K 55\" LG QNED Mini LED AI QNED70 2026 Processador α7 Ger9",
+   "brand": "LG",
+   "spec": "55\"",
+   "img": "648434-MLA115300888751_072026",
+   "offers": {
+    "ml": {
+     "price": 2754,
+     "orig": 2899,
+     "link": "https://meli.la/21L9PaN",
+     "seller": "Magalu"
+    }
+   },
+   "id": "smart-tv-4k-55-lg-qned-mini-led-ai-qned70-2026-processador-7"
+  },
+  {
+   "cat": "tv",
+   "name": "Smart TV PRO LG 55'' 4K Ultra HD AI 55UN85C",
+   "brand": "LG",
+   "spec": "55\"",
+   "img": "646395-MLA116823736237_082026",
+   "offers": {
+    "ml": {
+     "price": 2839,
+     "orig": 4999,
+     "link": "https://meli.la/1b4113t",
+     "seller": "Vikings"
+    }
+   },
+   "id": "smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Brastemp Frost Free 385 Litros Duplex Inox - BRM46MK",
+   "brand": "Brastemp",
+   "spec": "385 L",
+   "img": "649286-MLA104374120634_012026",
+   "offers": {
+    "ml": {
+     "price": 2860,
+     "orig": 3199,
+     "link": "https://meli.la/2iPrTrU",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-brastemp-frost-free-385-litros-duplex-inox-brm46mk"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira LG Frost Free Inverter 395L Duplex Inox Look - 127V",
+   "brand": "LG",
+   "spec": "395 L",
+   "img": "913787-MLA111287290604_052026",
+   "offers": {
+    "ml": {
+     "price": 2812,
+     "orig": 3843,
+     "link": "https://meli.la/2gq1q5g",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-lg-frost-free-inverter-395l-duplex-inox-look-127v"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Smart LG Frost Free Inverter 451L Inverse Inox - 220V",
+   "brand": "LG",
+   "spec": "451 L",
+   "img": "962497-MLA99453195020_112025",
+   "offers": {
+    "ml": {
+     "price": 3799,
+     "orig": 5026,
+     "link": "https://meli.la/2WKZK4w",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-smart-lg-frost-free-inverter-451l-inverse-inox-220"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Electrolux Frost Free 380l Autosense Inverter Duplex Inox",
+   "brand": "Electrolux",
+   "spec": "380 L",
+   "img": "632884-MLA106796987142_022026",
+   "offers": {
+    "ml": {
+     "price": 2518,
+     "orig": 3609,
+     "link": "https://meli.la/1Xxm8uf",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-electrolux-frost-free-380l-autosense-inverter-dupl"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Electrolux Frost Free Inverter 480L Efficient com AutoSense",
+   "brand": "Electrolux",
+   "spec": "480 L",
+   "img": "780538-MLU76901817142_062024",
+   "offers": {
+    "ml": {
+     "price": 3899,
+     "orig": 4709,
+     "link": "https://meli.la/1kzYwcj",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-electrolux-frost-free-inverter-480l-efficient-com-"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Consul Frost Free 455 Litros Duplex Inox - CRM53MK",
+   "brand": "Consul",
+   "spec": "455 L",
+   "img": "812352-MLA99455374336_112025",
+   "offers": {
+    "ml": {
+     "price": 3151,
+     "orig": 3699,
+     "link": "https://meli.la/19icmP6",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-consul-frost-free-455-litros-duplex-inox-crm53mk"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Brastemp Frost Free 415 Litros Duplex Inox - BRM52MK",
+   "brand": "Brastemp",
+   "spec": "415 L",
+   "img": "815026-MLA106811240925_022026",
+   "offers": {
+    "ml": {
+     "price": 3200,
+     "orig": 3549,
+     "link": "https://meli.la/1km8jDw",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-brastemp-frost-free-415-litros-duplex-inox-brm52mk"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Brastemp Frost Free Inverse 500 Litros Branca - BRE66A",
+   "brand": "Brastemp",
+   "spec": "500 L",
+   "img": "792259-MLA106662707437_022026",
+   "offers": {
+    "ml": {
+     "price": 4067,
+     "orig": 5099,
+     "link": "https://meli.la/1WVivoM",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-brastemp-frost-free-inverse-500-litros-branca-bre6"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Electrolux Frost Free 400l Inverter Inox (if44s)",
+   "brand": "Electrolux",
+   "spec": "400 L",
+   "img": "965835-MLA106290869708_022026",
+   "offers": {
+    "ml": {
+     "price": 3099,
+     "orig": 3559,
+     "link": "https://meli.la/2MdnTLi",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-electrolux-frost-free-400l-inverter-inox-if44s"
+  },
+  {
+   "cat": "gel",
+   "name": "Geladeira Electrolux Frost Free 400l Autosense Branca (if44)",
+   "brand": "Electrolux",
+   "spec": "400 L",
+   "img": "600123-MLA107244625265_022026",
+   "offers": {
+    "ml": {
+     "price": 2755,
+     "orig": 3359,
+     "link": "https://meli.la/2R4LiMT",
+     "seller": "Mercado Livre"
+    }
+   },
+   "id": "geladeira-electrolux-frost-free-400l-autosense-branca-if44"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar-condicionado Split Samsung Inverter Windfree Ai 12.000 Btus Frio Sem",
+   "brand": "Samsung",
+   "spec": "12.000 BTUs",
+   "img": "848672-MLA99995662549_112025",
+   "offers": {
+    "ml": {
+     "price": 2207,
+     "orig": 2399,
+     "link": "https://meli.la/1Ke2Ryn",
+     "seller": "Samsung"
+    }
+   },
+   "id": "ar-condicionado-split-samsung-inverter-windfree-ai-12-000-bt"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar Condicionado LG Inverter Smart Voice AI 12.000 Btus Frio R-32",
+   "brand": "LG",
+   "spec": "12.000 BTUs",
+   "img": "642524-MLA107696344688_032026",
+   "offers": {
+    "ml": {
+     "price": 3027,
+     "orig": 3902,
+     "link": "https://meli.la/12zrNRt",
+     "seller": "Mega Byte"
+    }
+   },
+   "id": "ar-condicionado-lg-inverter-smart-voice-ai-12-000-btus-frio-"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar Condicionado LG Dual Inverter Ai Voice 12000 Btus Qf Branco",
+   "brand": "LG",
+   "spec": "12.000 BTUs",
+   "img": "871396-MLA108125991029_032026",
+   "offers": {
+    "ml": {
+     "price": 3219,
+     "orig": 4183,
+     "link": "https://meli.la/1LL4fXT",
+     "seller": "Mega Byte"
+    }
+   },
+   "id": "ar-condicionado-lg-dual-inverter-ai-voice-12000-btus-qf-bran"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar-condicionado Samsung Inverter Windfree Ai Pro 12.000 Btus Frio",
+   "brand": "Samsung",
+   "spec": "12.000 BTUs",
+   "img": "793295-MLA119589322329_102026",
+   "offers": {
+    "ml": {
+     "price": 2499,
+     "orig": null,
+     "link": "https://meli.la/1fReXwP",
+     "seller": "Samsung"
+    }
+   },
+   "id": "ar-condicionado-samsung-inverter-windfree-ai-pro-12-000-btus"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar Condicionado Split Hi Wall Inverter R-32 G-top Auto Gree 18.000 BTUs",
+   "brand": "Gree",
+   "spec": "18.000 BTUs",
+   "img": "630282-MLA99447176786_112025",
+   "offers": {
+    "ml": {
+     "price": 3599,
+     "orig": 4599,
+     "link": "https://meli.la/1gwdsoX",
+     "seller": "ClimaRio"
+    }
+   },
+   "id": "ar-condicionado-split-hi-wall-inverter-r-32-g-top-auto-gree-"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar condicionado Split Hi Wall Gree G-Side Auto Inverter 12.000 Btus",
+   "brand": "Gree",
+   "spec": "12.000 BTUs",
+   "img": "681708-MLA113589584119_062026",
+   "offers": {
+    "ml": {
+     "price": 2629,
+     "orig": null,
+     "link": "https://meli.la/2Zov8sz",
+     "seller": "Centralar.com"
+    }
+   },
+   "id": "ar-condicionado-split-hi-wall-gree-g-side-auto-inverter-12-0"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar Condicionado Split Hw G-top Auto Inverter R-32 Gree 24000 BTU Frio",
+   "brand": "Gree",
+   "spec": "24.000 BTUs",
+   "img": "966628-MLA99393709922_112025",
+   "offers": {
+    "ml": {
+     "price": 4099,
+     "orig": 5000,
+     "link": "https://meli.la/26egXsq",
+     "seller": "ClimaRio"
+    }
+   },
+   "id": "ar-condicionado-split-hw-g-top-auto-inverter-r-32-gree-24000"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar Condicionado Split Hi Wall Midea Airvolution Inverter 9.000 Btus",
+   "brand": "Midea",
+   "spec": "9.000 BTUs",
+   "img": "917196-MLA107967121323_032026",
+   "offers": {
+    "ml": {
+     "price": 1811,
+     "orig": 1969,
+     "link": "https://meli.la/1774aHL",
+     "seller": "VOLIX"
+    }
+   },
+   "id": "ar-condicionado-split-hi-wall-midea-airvolution-inverter-9-0"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar Condicionado Split 9.000 Btus Inverter Ai Ecomaster Q/f M Cor Branco",
+   "brand": "Midea",
+   "spec": "9.000 BTUs",
+   "img": "985060-MLA119993389961_102026",
+   "offers": {
+    "ml": {
+     "price": 2126,
+     "orig": 2444,
+     "link": "https://meli.la/2feXhds",
+     "seller": "Ar Certo"
+    }
+   },
+   "id": "ar-condicionado-split-9-000-btus-inverter-ai-ecomaster-q-f-m"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar Condicionado Split Midea AI Ecomaster 9.000 Btus Frio",
+   "brand": "Midea",
+   "spec": "9.000 BTUs",
+   "img": "729324-MLA118352282962_102026",
+   "offers": {
+    "ml": {
+     "price": 1849,
+     "orig": 2557,
+     "link": "https://meli.la/1y1L179",
+     "seller": "Ar Certo"
+    }
+   },
+   "id": "ar-condicionado-split-midea-ai-ecomaster-9-000-btus-frio"
+  },
+  {
+   "cat": "cel",
+   "name": "iPhone 16 128 GB",
+   "brand": "Apple",
+   "spec": "128 GB",
+   "img": "673808-MLA99443133132_112025",
+   "offers": {
+    "ml": {
+     "price": 5054,
+     "orig": 7799,
+     "link": "https://meli.la/1wovzo8",
+     "seller": ""
+    }
+   },
+   "id": "iphone-16-128-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "iPhone 16 256 GB",
+   "brand": "Apple",
+   "spec": "256 GB",
+   "img": "810957-MLA99386727202_112025",
+   "offers": {
+    "ml": {
+     "price": 5714,
+     "orig": 9538,
+     "link": "https://meli.la/2gYBsGo",
+     "seller": ""
+    }
+   },
+   "id": "iphone-16-256-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "iPhone 15 128 GB",
+   "brand": "Apple",
+   "spec": "128 GB",
+   "img": "680991-MLA95497804976_102025",
+   "offers": {
+    "ml": {
+     "price": 4199,
+     "orig": 7209,
+     "link": "https://meli.la/1YX5Sv4",
+     "seller": ""
+    }
+   },
+   "id": "iphone-15-128-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "Samsung Galaxy S25 256 GB",
+   "brand": "Samsung",
+   "spec": "256 GB",
+   "img": "839006-MLA100007826225_122025",
+   "offers": {
+    "ml": {
+     "price": 4063,
+     "orig": 5999,
+     "link": "https://meli.la/1cMKJ9Q",
+     "seller": ""
+    }
+   },
+   "id": "samsung-galaxy-s25-256-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "Samsung Galaxy S24 FE 128 GB",
+   "brand": "Samsung",
+   "spec": "128 GB",
+   "img": "693134-MLA100063156843_122025",
+   "offers": {
+    "ml": {
+     "price": 3099,
+     "orig": null,
+     "link": "https://meli.la/2c8cgkt",
+     "seller": ""
+    }
+   },
+   "id": "samsung-galaxy-s24-fe-128-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "Samsung Galaxy A56 256 GB",
+   "brand": "Samsung",
+   "spec": "256 GB",
+   "img": "858591-MLA115297984999_072026",
+   "offers": {
+    "ml": {
+     "price": 2499,
+     "orig": 3999,
+     "link": "https://meli.la/1uDjLej",
+     "seller": ""
+    }
+   },
+   "id": "samsung-galaxy-a56-256-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "Samsung Galaxy A16 128 GB",
+   "brand": "Samsung",
+   "spec": "128 GB",
+   "img": "804504-MLA114036513780_072026",
+   "offers": {
+    "ml": {
+     "price": 1049,
+     "orig": 1999,
+     "link": "https://meli.la/2uxRMJB",
+     "seller": ""
+    }
+   },
+   "id": "samsung-galaxy-a16-128-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "Motorola Moto G85 256 GB",
+   "brand": "Motorola",
+   "spec": "256 GB",
+   "img": "603058-MLA99569910704_122025",
+   "offers": {
+    "ml": {
+     "price": 2118,
+     "orig": null,
+     "link": "https://meli.la/1td81no",
+     "seller": ""
+    }
+   },
+   "id": "motorola-moto-g85-256-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "Motorola Moto G35 128 GB",
+   "brand": "Motorola",
+   "spec": "128 GB",
+   "img": "983786-MLA99479656582_112025",
+   "offers": {
+    "ml": {
+     "price": 1143,
+     "orig": null,
+     "link": "https://meli.la/1LrjyLf",
+     "seller": ""
+    }
+   },
+   "id": "motorola-moto-g35-128-gb"
+  },
+  {
+   "cat": "cel",
+   "name": "Xiaomi Redmi Note 14 256 GB",
+   "brand": "Xiaomi",
+   "spec": "256 GB",
+   "img": "741218-MLA99504438294_112025",
+   "offers": {
+    "ml": {
+     "price": 2800,
+     "orig": null,
+     "link": "https://meli.la/2gPTUm8",
+     "seller": ""
+    }
+   },
+   "id": "xiaomi-redmi-note-14-256-gb"
+  }
+ ]
 }
