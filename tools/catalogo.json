@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "stores": [
   {
    "id": "ml",
@@ -93,8 +93,8 @@
    "img": "873547-MLA117543095721_092026",
    "offers": {
     "ml": {
-     "price": 7019,
-     "orig": null,
+     "price": 7388,
+     "orig": 10999,
      "link": "https://meli.la/2pfGPcV",
      "seller": "Samsung",
      "mlb": "MLB76020085",
@@ -112,7 +112,7 @@
    "offers": {
     "ml": {
      "price": 5219,
-     "orig": null,
+     "orig": 6766,
      "link": "https://meli.la/2rPyUeG",
      "seller": "Samsung",
      "mlb": "MLB76003616",
@@ -136,7 +136,7 @@
    "img": "867720-MLA118173631553_092026",
    "offers": {
     "ml": {
-     "price": 3599,
+     "price": 3977,
      "orig": 4499,
      "link": "https://meli.la/1M1BiYY",
      "seller": "Samsung",
@@ -161,7 +161,7 @@
    "img": "848385-MLA118173880203_092026",
    "offers": {
     "ml": {
-     "price": 6991,
+     "price": 6509,
      "orig": 9399,
      "link": "https://meli.la/2tp2Kkr",
      "seller": "Samsung",
@@ -170,7 +170,7 @@
     },
     "am": {
      "price": 6649,
-     "orig": 7494,
+     "orig": null,
      "link": "https://www.amazon.com.br/dp/B0HBYTF3B8?tag=lima0a0-20",
      "asin": "B0HBYTF3B8",
      "ok": true
@@ -186,7 +186,7 @@
    "img": "701664-MLA118173217263_092026",
    "offers": {
     "ml": {
-     "price": 2746,
+     "price": 2842,
      "orig": 3399,
      "link": "https://meli.la/22vbhA4",
      "seller": "Samsung",
@@ -230,7 +230,7 @@
      "ok": true
     },
     "am": {
-     "price": 3248,
+     "price": 3419,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0H5FLN8W3?tag=lima0a0-20",
      "asin": "B0H5FLN8W3",
@@ -247,16 +247,16 @@
    "img": "648434-MLA115300888751_072026",
    "offers": {
     "ml": {
-     "price": 2849,
-     "orig": 2999,
+     "price": 2701,
+     "orig": 3599,
      "link": "https://meli.la/21L9PaN",
      "seller": "Magalu",
      "mlb": "MLB74143355",
      "ok": true
     },
     "am": {
-     "price": 2609,
-     "orig": null,
+     "price": 2567,
+     "orig": 2909,
      "link": "https://www.amazon.com.br/dp/B0H4HCJJZW?tag=lima0a0-20",
      "asin": "B0H4HCJJZW",
      "ok": true
@@ -280,7 +280,7 @@
      "ok": true
     },
     "am": {
-     "price": 2278,
+     "price": 2389,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0HCRPPXB1?tag=lima0a0-20",
      "asin": "B0HCRPPXB1",
@@ -297,8 +297,8 @@
    "img": "649286-MLA104374120634_012026",
    "offers": {
     "ml": {
-     "price": 3229,
-     "orig": 4189,
+     "price": 2878,
+     "orig": 3199,
      "link": "https://meli.la/2iPrTrU",
      "seller": "Mercado Livre",
      "mlb": "MLB64339046",
@@ -340,8 +340,8 @@
    "img": "962497-MLA99453195020_112025",
    "offers": {
     "ml": {
-     "price": 3989,
-     "orig": 4199,
+     "price": 4369,
+     "orig": 4551,
      "link": "https://meli.la/2WKZK4w",
      "seller": "Mercado Livre",
      "mlb": "MLB34292626",
@@ -383,7 +383,7 @@
    "img": "780538-MLU76901817142_062024",
    "offers": {
     "ml": {
-     "price": 3899,
+     "price": 3782,
      "orig": 4709,
      "link": "https://meli.la/1kzYwcj",
      "seller": "Mercado Livre",
@@ -408,7 +408,7 @@
    "img": "812352-MLA99455374336_112025",
    "offers": {
     "ml": {
-     "price": 3151,
+     "price": 3368,
      "orig": 3699,
      "link": "https://meli.la/19icmP6",
      "seller": "Mercado Livre",
@@ -416,7 +416,7 @@
      "ok": true
     },
     "am": {
-     "price": 3098,
+     "price": 3099,
      "orig": 3315,
      "link": "https://www.amazon.com.br/dp/B0G1D2BB62?tag=lima0a0-20",
      "asin": "B0G1D2BB62",
@@ -433,7 +433,7 @@
    "img": "815026-MLA106811240925_022026",
    "offers": {
     "ml": {
-     "price": 3200,
+     "price": 3164,
      "orig": 3549,
      "link": "https://meli.la/1km8jDw",
      "seller": "Mercado Livre",
@@ -551,7 +551,7 @@
    "img": "642524-MLA107696344688_032026",
    "offers": {
     "ml": {
-     "price": 3027,
+     "price": 2899,
      "orig": 3902,
      "link": "https://meli.la/12zrNRt",
      "seller": "Mega Byte",
@@ -576,7 +576,7 @@
    "img": "871396-MLA108125991029_032026",
    "offers": {
     "ml": {
-     "price": 2599,
+     "price": 2799,
      "orig": 4121,
      "link": "https://meli.la/1LL4fXT",
      "seller": "Mega Byte",
@@ -601,15 +601,15 @@
    "img": "793295-MLA119589322329_102026",
    "offers": {
     "ml": {
-     "price": 2499,
-     "orig": null,
+     "price": 2399,
+     "orig": 2499,
      "link": "https://meli.la/1fReXwP",
      "seller": "Samsung",
      "mlb": "MLB80593129",
      "ok": true
     },
     "am": {
-     "price": 2374,
+     "price": 2249,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0H4N4L11K?tag=lima0a0-20",
      "asin": "B0H4N4L11K",
@@ -626,7 +626,7 @@
    "img": "630282-MLA99447176786_112025",
    "offers": {
     "ml": {
-     "price": 3599,
+     "price": 3499,
      "orig": 4599,
      "link": "https://meli.la/1gwdsoX",
      "seller": "ClimaRio",
@@ -676,7 +676,7 @@
    "img": "966628-MLA99393709922_112025",
    "offers": {
     "ml": {
-     "price": 4099,
+     "price": 3899,
      "orig": 5000,
      "link": "https://meli.la/26egXsq",
      "seller": "ClimaRio",
@@ -701,8 +701,8 @@
    "img": "917196-MLA107967121323_032026",
    "offers": {
     "ml": {
-     "price": 2125,
-     "orig": 3061,
+     "price": 1959,
+     "orig": 4591,
      "link": "https://meli.la/1774aHL",
      "seller": "VOLIX",
      "mlb": "MLB66129914",
@@ -727,7 +727,7 @@
      "ok": true
     },
     "am": {
-     "price": 1947,
+     "price": 1946,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0F9X9D1TQ?tag=lima0a0-20",
      "asin": "B0F9X9D1TQ",
@@ -819,7 +819,7 @@
    "img": "680991-MLA95497804976_102025",
    "offers": {
     "ml": {
-     "price": 4199,
+     "price": 4073,
      "orig": 7209,
      "link": "https://meli.la/1YX5Sv4",
      "seller": "",
@@ -827,7 +827,7 @@
      "ok": true
     },
     "am": {
-     "price": 3989,
+     "price": 3999,
      "orig": 5999,
      "link": "https://www.amazon.com.br/dp/B0CP6CVJSG?tag=lima0a0-20",
      "asin": "B0CP6CVJSG",
@@ -844,7 +844,7 @@
    "img": "839006-MLA100007826225_122025",
    "offers": {
     "ml": {
-     "price": 3859,
+     "price": 4115,
      "orig": 5999,
      "link": "https://meli.la/1cMKJ9Q",
      "seller": "",
@@ -852,7 +852,7 @@
      "ok": true
     },
     "am": {
-     "price": 3656,
+     "price": 3860,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0DSY665M3?tag=lima0a0-20",
      "asin": "B0DSY665M3",
@@ -869,7 +869,7 @@
    "img": "693134-MLA100063156843_122025",
    "offers": {
     "ml": {
-     "price": 3099,
+     "price": 3199,
      "orig": null,
      "link": "https://meli.la/2c8cgkt",
      "seller": "",
@@ -895,7 +895,7 @@
      "ok": true
     },
     "am": {
-     "price": 2849,
+     "price": 2532,
      "orig": 3499,
      "link": "https://www.amazon.com.br/dp/B0DYVPCX34?tag=lima0a0-20",
      "asin": "B0DYVPCX34",
@@ -948,7 +948,7 @@
    "img": "983786-MLA99479656582_112025",
    "offers": {
     "ml": {
-     "price": 1162,
+     "price": 1174,
      "orig": null,
      "link": "https://meli.la/1LrjyLf",
      "seller": "",
@@ -973,7 +973,7 @@
    "img": "741218-MLA99504438294_112025",
    "offers": {
     "ml": {
-     "price": 1999,
+     "price": 1949,
      "orig": null,
      "link": "https://meli.la/2gPTUm8",
      "seller": "",
