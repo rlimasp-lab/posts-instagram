@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "stores": [
   {
    "id": "ml",
@@ -57,6 +57,11 @@
    "id": "airfryer",
    "label": "Air fryers",
    "spec": "Capacidade"
+  },
+  {
+   "id": "console",
+   "label": "Videogames",
+   "spec": "Armazenamento"
   }
  ],
  "items": [
@@ -68,7 +73,7 @@
    "img": "857357-MLA116062135096_092026",
    "offers": {
     "ml": {
-     "price": 3649,
+     "price": 3781,
      "orig": 5699,
      "link": "https://meli.la/2HqQzQL",
      "seller": "Samsung",
@@ -76,8 +81,8 @@
      "ok": true
     },
     "am": {
-     "price": 3459,
-     "orig": null,
+     "price": 3609,
+     "orig": 4000,
      "link": "https://www.amazon.com.br/dp/B0H7YV1TD8?tag=lima0a0-20",
      "asin": "B0H7YV1TD8",
      "ok": true
@@ -111,11 +116,18 @@
    "img": "810149-MLA118174573239_092026",
    "offers": {
     "ml": {
-     "price": 5219,
-     "orig": 6766,
+     "price": 5051,
+     "orig": 7899,
      "link": "https://meli.la/2rPyUeG",
      "seller": "Samsung",
      "mlb": "MLB76003616",
+     "ok": true
+    },
+    "am": {
+     "price": 5305,
+     "orig": null,
+     "link": "https://www.amazon.com.br/dp/B0HC47DYZV?tag=lima0a0-20",
+     "asin": "B0HC47DYZV",
      "ok": true
     }
    },
@@ -129,7 +141,7 @@
    "img": "867720-MLA118173631553_092026",
    "offers": {
     "ml": {
-     "price": 3977,
+     "price": 3779,
      "orig": 4499,
      "link": "https://meli.la/1M1BiYY",
      "seller": "Samsung",
@@ -137,7 +149,7 @@
      "ok": true
     },
     "am": {
-     "price": 3526,
+     "price": 3715,
      "orig": 4499,
      "link": "https://www.amazon.com.br/dp/B0HBYBB54N?tag=lima0a0-20",
      "asin": "B0HBYBB54N",
@@ -154,7 +166,7 @@
    "img": "848385-MLA118173880203_092026",
    "offers": {
     "ml": {
-     "price": 6509,
+     "price": 6299,
      "orig": 9399,
      "link": "https://meli.la/2tp2Kkr",
      "seller": "Samsung",
@@ -162,7 +174,7 @@
      "ok": true
     },
     "am": {
-     "price": 6649,
+     "price": 6333,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0HBYTF3B8?tag=lima0a0-20",
      "asin": "B0HBYTF3B8",
@@ -179,7 +191,7 @@
    "img": "701664-MLA118173217263_092026",
    "offers": {
     "ml": {
-     "price": 2842,
+     "price": 2471,
      "orig": 3399,
      "link": "https://meli.la/22vbhA4",
      "seller": "Samsung",
@@ -240,18 +252,11 @@
    "img": "648434-MLA115300888751_072026",
    "offers": {
     "ml": {
-     "price": 2701,
+     "price": 2729,
      "orig": 3599,
      "link": "https://meli.la/21L9PaN",
      "seller": "Magalu",
      "mlb": "MLB74143355",
-     "ok": true
-    },
-    "am": {
-     "price": 2567,
-     "orig": 2909,
-     "link": "https://www.amazon.com.br/dp/B0H4HCJJZW?tag=lima0a0-20",
-     "asin": "B0H4HCJJZW",
      "ok": true
     }
    },
@@ -265,7 +270,7 @@
    "img": "646395-MLA116823736237_082026",
    "offers": {
     "ml": {
-     "price": 2699,
+     "price": 2599,
      "orig": 4999,
      "link": "https://meli.la/1b4113t",
      "seller": "Vikings",
@@ -273,8 +278,8 @@
      "ok": true
     },
     "am": {
-     "price": 2389,
-     "orig": null,
+     "price": 2000,
+     "orig": 2338,
      "link": "https://www.amazon.com.br/dp/B0HCRPPXB1?tag=lima0a0-20",
      "asin": "B0HCRPPXB1",
      "ok": true
@@ -333,8 +338,8 @@
    "img": "962497-MLA99453195020_112025",
    "offers": {
     "ml": {
-     "price": 4369,
-     "orig": 4551,
+     "price": 3999,
+     "orig": 5026,
      "link": "https://meli.la/2WKZK4w",
      "seller": "Mercado Livre",
      "mlb": "MLB34292626",
@@ -351,8 +356,8 @@
    "img": "632884-MLA106796987142_022026",
    "offers": {
     "ml": {
-     "price": 2518,
-     "orig": 3609,
+     "price": 2999,
+     "orig": null,
      "link": "https://meli.la/1Xxm8uf",
      "seller": "Mercado Livre",
      "mlb": "MLB65863229",
@@ -384,7 +389,7 @@
      "ok": true
     },
     "am": {
-     "price": 3799,
+     "price": 3689,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0D1YP2X5W?tag=lima0a0-20",
      "asin": "B0D1YP2X5W",
@@ -407,13 +412,6 @@
      "seller": "Mercado Livre",
      "mlb": "MLB60383074",
      "ok": true
-    },
-    "am": {
-     "price": 3099,
-     "orig": 3315,
-     "link": "https://www.amazon.com.br/dp/B0G1D2BB62?tag=lima0a0-20",
-     "asin": "B0G1D2BB62",
-     "ok": true
     }
    },
    "id": "geladeira-consul-frost-free-455-litros-duplex-inox-crm53mk"
@@ -431,13 +429,6 @@
      "link": "https://meli.la/1km8jDw",
      "seller": "Mercado Livre",
      "mlb": "MLB65416390",
-     "ok": true
-    },
-    "am": {
-     "price": 2754,
-     "orig": null,
-     "link": "https://www.amazon.com.br/dp/B0GL51Q7DD?tag=lima0a0-20",
-     "asin": "B0GL51Q7DD",
      "ok": true
     }
    },
@@ -459,7 +450,7 @@
      "ok": true
     },
     "am": {
-     "price": 3641,
+     "price": 3789,
      "orig": 4749,
      "link": "https://www.amazon.com.br/dp/B0GL3P9P61?tag=lima0a0-20",
      "asin": "B0GL3P9P61",
@@ -476,7 +467,7 @@
    "img": "965835-MLA106290869708_022026",
    "offers": {
     "ml": {
-     "price": 3099,
+     "price": 3129,
      "orig": 3559,
      "link": "https://meli.la/2MdnTLi",
      "seller": "Mercado Livre",
@@ -501,7 +492,7 @@
    "img": "600123-MLA107244625265_022026",
    "offers": {
     "ml": {
-     "price": 2642,
+     "price": 2725,
      "orig": 3359,
      "link": "https://meli.la/2R4LiMT",
      "seller": "Mercado Livre",
@@ -544,7 +535,7 @@
    "img": "642524-MLA107696344688_032026",
    "offers": {
     "ml": {
-     "price": 2899,
+     "price": 2907,
      "orig": 3902,
      "link": "https://meli.la/12zrNRt",
      "seller": "Mega Byte",
@@ -552,8 +543,8 @@
      "ok": true
     },
     "am": {
-     "price": 2069,
-     "orig": null,
+     "price": 1800,
+     "orig": 2299,
      "link": "https://www.amazon.com.br/dp/B0FY6RY66N?tag=lima0a0-20",
      "asin": "B0FY6RY66N",
      "ok": true
@@ -569,8 +560,8 @@
    "img": "871396-MLA108125991029_032026",
    "offers": {
     "ml": {
-     "price": 2799,
-     "orig": 4121,
+     "price": 2879,
+     "orig": 4183,
      "link": "https://meli.la/1LL4fXT",
      "seller": "Mega Byte",
      "mlb": "MLB66187058",
@@ -587,7 +578,7 @@
    "img": "793295-MLA119589322329_102026",
    "offers": {
     "ml": {
-     "price": 2399,
+     "price": 2299,
      "orig": 2499,
      "link": "https://meli.la/1fReXwP",
      "seller": "Samsung",
@@ -595,7 +586,7 @@
      "ok": true
     },
     "am": {
-     "price": 2249,
+     "price": 2124,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0H4N4L11K?tag=lima0a0-20",
      "asin": "B0H4N4L11K",
@@ -612,7 +603,7 @@
    "img": "630282-MLA99447176786_112025",
    "offers": {
     "ml": {
-     "price": 3499,
+     "price": 3479,
      "orig": 4599,
      "link": "https://meli.la/1gwdsoX",
      "seller": "ClimaRio",
@@ -620,7 +611,7 @@
      "ok": true
     },
     "am": {
-     "price": 2992,
+     "price": 2835,
      "orig": 3619,
      "link": "https://www.amazon.com.br/dp/B081DJQMXS?tag=lima0a0-20",
      "asin": "B081DJQMXS",
@@ -637,15 +628,15 @@
    "img": "681708-MLA113589584119_062026",
    "offers": {
     "ml": {
-     "price": 2629,
-     "orig": null,
+     "price": 2429,
+     "orig": 2629,
      "link": "https://meli.la/2Zov8sz",
      "seller": "Centralar.com",
      "mlb": "MLB74326849",
      "ok": true
     },
     "am": {
-     "price": 2096,
+     "price": 1985,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B081DJTHY1?tag=lima0a0-20",
      "asin": "B081DJTHY1",
@@ -662,7 +653,7 @@
    "img": "966628-MLA99393709922_112025",
    "offers": {
     "ml": {
-     "price": 3899,
+     "price": 4159,
      "orig": 5000,
      "link": "https://meli.la/26egXsq",
      "seller": "ClimaRio",
@@ -687,8 +678,8 @@
    "img": "917196-MLA107967121323_032026",
    "offers": {
     "ml": {
-     "price": 1959,
-     "orig": 4591,
+     "price": 2249,
+     "orig": null,
      "link": "https://meli.la/1774aHL",
      "seller": "VOLIX",
      "mlb": "MLB66129914",
@@ -705,15 +696,15 @@
    "img": "985060-MLA119993389961_102026",
    "offers": {
     "ml": {
-     "price": 2126,
-     "orig": 2444,
+     "price": 2120,
+     "orig": 2636,
      "link": "https://meli.la/2feXhds",
      "seller": "Ar Certo",
      "mlb": "MLB52609611",
      "ok": true
     },
     "am": {
-     "price": 1946,
+     "price": 1947,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0F9X9D1TQ?tag=lima0a0-20",
      "asin": "B0F9X9D1TQ",
@@ -838,7 +829,7 @@
      "ok": true
     },
     "am": {
-     "price": 3860,
+     "price": 3899,
      "orig": null,
      "link": "https://www.amazon.com.br/dp/B0DSY665M3?tag=lima0a0-20",
      "asin": "B0DSY665M3",
@@ -855,7 +846,7 @@
    "img": "693134-MLA100063156843_122025",
    "offers": {
     "ml": {
-     "price": 3199,
+     "price": 3195,
      "orig": null,
      "link": "https://meli.la/2c8cgkt",
      "seller": "",
@@ -873,15 +864,15 @@
    "img": "858591-MLA115297984999_072026",
    "offers": {
     "ml": {
-     "price": 2532,
-     "orig": 3699,
+     "price": 2857,
+     "orig": null,
      "link": "https://meli.la/1uDjLej",
      "seller": "",
      "mlb": "MLB47114363",
      "ok": true
     },
     "am": {
-     "price": 2532,
+     "price": 2857,
      "orig": 3499,
      "link": "https://www.amazon.com.br/dp/B0DYVPCX34?tag=lima0a0-20",
      "asin": "B0DYVPCX34",
@@ -934,7 +925,7 @@
    "img": "983786-MLA99479656582_112025",
    "offers": {
     "ml": {
-     "price": 1174,
+     "price": 1162,
      "orig": null,
      "link": "https://meli.la/1LrjyLf",
      "seller": "",
@@ -942,8 +933,8 @@
      "ok": true
     },
     "am": {
-     "price": 829,
-     "orig": 899,
+     "price": 899,
+     "orig": null,
      "link": "https://www.amazon.com.br/dp/B0DHWFBYVC?tag=lima0a0-20",
      "asin": "B0DHWFBYVC",
      "ok": true
@@ -959,7 +950,7 @@
    "img": "741218-MLA99504438294_112025",
    "offers": {
     "ml": {
-     "price": 1949,
+     "price": 1999,
      "orig": null,
      "link": "https://meli.la/2gPTUm8",
      "seller": "",
@@ -1004,6 +995,31 @@
    },
    "id": "air-fryer-philco-6-5-l-visor-glass-paf65a-1700w-127v",
    "origem": "busca: air fryer"
+  },
+  {
+   "cat": "console",
+   "name": "Bundle Nintendo Switch 2 + Mario Kart World + 3 Meses NSO",
+   "brand": "Nintendo",
+   "spec": "256 GB",
+   "img": "642168-MLA118780566083_102026",
+   "offers": {
+    "ml": {
+     "price": 4349,
+     "orig": 5856,
+     "link": "https://meli.la/2DP7bAu",
+     "mlb": "MLB80167828",
+     "ok": true
+    },
+    "am": {
+     "price": 4655,
+     "orig": null,
+     "asin": "B0HM7ZJXVG",
+     "link": "https://www.amazon.com.br/dp/B0HM7ZJXVG?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "bundle-nintendo-switch-2-mario-kart-world-3-meses-nso",
+   "origem": "busca: nintendo switch 2"
   }
  ]
 }
