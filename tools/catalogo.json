@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "stores": [
   {
    "id": "ml",
@@ -62,6 +62,11 @@
    "id": "console",
    "label": "Videogames",
    "spec": "Armazenamento"
+  },
+  {
+   "id": "vent",
+   "label": "Ventiladores",
+   "spec": "Tamanho"
   }
  ],
  "items": [
@@ -1048,6 +1053,252 @@
    },
    "id": "bundle-nintendo-switch-2-mario-kart-world-3-meses-nso",
    "origem": "busca: nintendo switch 2"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar-condicionado Portátil Midea 12.000 BTUs Frio Conectado 127V",
+   "brand": "Midea",
+   "spec": "12.000 BTUs",
+   "img": "676334-MLA99256245340_112025",
+   "offers": {
+    "ml": {
+     "price": 3299,
+     "orig": null,
+     "link": "https://meli.la/2X3zdHU",
+     "mlb": "MLB62604746",
+     "seller": "DSFRIO",
+     "ok": true
+    },
+    "am": {
+     "price": 2537,
+     "orig": 3349,
+     "asin": "B0G1CG5KV4",
+     "link": "https://www.amazon.com.br/dp/B0G1CG5KV4?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "ar-condicionado-portatil-midea-12-000-btus-frio-conectado-12",
+   "origem": "pedido: ar portátil"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar-condicionado Portátil Philco PAC12QN 12.000 BTUs Quente e Frio 220V",
+   "brand": "Philco",
+   "spec": "12.000 BTUs",
+   "img": "718598-MLA114059578898_072026",
+   "offers": {
+    "ml": {
+     "price": 2999,
+     "orig": 3890,
+     "link": "https://meli.la/28TkK9a",
+     "mlb": "MLB76105947",
+     "seller": "Fid",
+     "ok": true
+    },
+    "am": {
+     "price": 2398,
+     "orig": 2972,
+     "asin": "B0H1DS7SGD",
+     "link": "https://www.amazon.com.br/dp/B0H1DS7SGD?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "ar-condicionado-portatil-philco-pac12qn-12-000-btus-quente-e",
+   "origem": "pedido: ar portátil"
+  },
+  {
+   "cat": "ar",
+   "name": "Ar-condicionado Portátil Electrolux SP12F 12.000 BTUs Frio Wi-Fi 127V",
+   "brand": "Electrolux",
+   "spec": "12.000 BTUs",
+   "img": "727544-MLA99481234790_112025",
+   "offers": {
+    "ml": {
+     "price": 4508,
+     "orig": 5445,
+     "link": "https://meli.la/1GbFuzF",
+     "mlb": "MLB35721830",
+     "seller": "Tudo Quanto Há",
+     "ok": true
+    },
+    "am": {
+     "price": 2969,
+     "orig": null,
+     "asin": "B0FVP9BV2B",
+     "link": "https://www.amazon.com.br/dp/B0FVP9BV2B?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "ar-condicionado-portatil-electrolux-sp12f-12-000-btus-frio-w",
+   "origem": "pedido: ar portátil"
+  },
+  {
+   "cat": "vent",
+   "name": "Ventilador de Mesa Mondial Super Power VSP-30-B 30 cm 127V",
+   "brand": "Mondial",
+   "spec": "30 cm",
+   "img": "679216-MLA99937072481_112025",
+   "offers": {
+    "ml": {
+     "price": 120,
+     "orig": 153,
+     "link": "https://meli.la/2AHoWv3",
+     "mlb": "MLB18932157",
+     "seller": "Dutra Maquinas",
+     "ok": true
+    },
+    "am": {
+     "price": 119,
+     "orig": 140,
+     "asin": "B09B16LRD1",
+     "link": "https://www.amazon.com.br/dp/B09B16LRD1?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "ventilador-de-mesa-mondial-super-power-vsp-30-b-30-cm-127v",
+   "origem": "pedido: ventiladores"
+  },
+  {
+   "cat": "vent",
+   "name": "Ventilador de Mesa Mallory Turbo 30 cm 6 Pás",
+   "brand": "Mallory",
+   "spec": "30 cm",
+   "img": "748065-MLA116420019336_092026",
+   "offers": {
+    "ml": {
+     "price": 129,
+     "orig": 189,
+     "link": "https://meli.la/1t1kZDh",
+     "mlb": "MLB27729348",
+     "seller": "LUVIHE SHOPPING",
+     "ok": true
+    }
+   },
+   "id": "ventilador-de-mesa-mallory-turbo-30-cm-6-pas",
+   "origem": "pedido: ventiladores"
+  },
+  {
+   "cat": "vent",
+   "name": "Ventilador de Coluna Mondial Turbo NVT-40C-8P-B 40 cm 127V",
+   "brand": "Mondial",
+   "spec": "40 cm",
+   "img": "892256-MLA118227900582_102026",
+   "offers": {
+    "ml": {
+     "price": 317,
+     "orig": 395,
+     "link": "https://meli.la/1G6sMuV",
+     "mlb": "MLB38089078",
+     "seller": "REDE Marketplace",
+     "ok": true
+    },
+    "am": {
+     "price": 242,
+     "orig": 320,
+     "asin": "B0D9C6BF2F",
+     "link": "https://www.amazon.com.br/dp/B0D9C6BF2F?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "ventilador-de-coluna-mondial-turbo-nvt-40c-8p-b-40-cm-127v",
+   "origem": "pedido: ventiladores"
+  },
+  {
+   "cat": "vent",
+   "name": "Ventilador de Coluna Mondial Super Power VSP-40C 40 cm 127V",
+   "brand": "Mondial",
+   "spec": "40 cm",
+   "img": "867266-MLA114707041229_072026",
+   "offers": {
+    "ml": {
+     "price": 229,
+     "orig": 289,
+     "link": "https://meli.la/2jK75oe",
+     "mlb": "MLB27577458",
+     "seller": "Mercado Livre",
+     "ok": true
+    },
+    "am": {
+     "price": 190,
+     "orig": 270,
+     "asin": "B09B15B85N",
+     "link": "https://www.amazon.com.br/dp/B09B15B85N?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "ventilador-de-coluna-mondial-super-power-vsp-40c-40-cm-127v",
+   "origem": "pedido: ventiladores"
+  },
+  {
+   "cat": "vent",
+   "name": "Ventilador de Coluna WAP Flow Turbo 50 cm 180W 127V",
+   "brand": "WAP",
+   "spec": "50 cm",
+   "img": "844943-MLA115107303476_082026",
+   "offers": {
+    "ml": {
+     "price": 299,
+     "orig": 425,
+     "link": "https://meli.la/1UKesuP",
+     "mlb": "MLB77867409",
+     "seller": "123 Comprou",
+     "ok": true
+    },
+    "am": {
+     "price": 209,
+     "orig": 350,
+     "asin": "B0BT4X3MJR",
+     "link": "https://www.amazon.com.br/dp/B0BT4X3MJR?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "ventilador-de-coluna-wap-flow-turbo-50-cm-180w-127v",
+   "origem": "pedido: ventiladores"
+  },
+  {
+   "cat": "vent",
+   "name": "Ventilador de Coluna Britânia BVT450 Maxx Force 160W",
+   "brand": "Britânia",
+   "spec": "40 cm",
+   "img": "879035-MLA114315247050_082026",
+   "offers": {
+    "ml": {
+     "price": 324,
+     "orig": 374,
+     "link": "https://meli.la/1xFhjr9",
+     "mlb": "MLB50516638",
+     "seller": "Marine Shop",
+     "ok": true
+    }
+   },
+   "id": "ventilador-de-coluna-britania-bvt450-maxx-force-160w",
+   "origem": "pedido: ventiladores"
+  },
+  {
+   "cat": "vent",
+   "name": "Ventilador de Coluna Ventisol Turbo 6 Pás 40 cm Preto 127V",
+   "brand": "Ventisol",
+   "spec": "40 cm",
+   "img": "795443-MLA99956962451_112025",
+   "offers": {
+    "ml": {
+     "price": 228,
+     "orig": null,
+     "link": "https://meli.la/2SrW2ux",
+     "mlb": "MLB10513380",
+     "seller": "CASATONI TINTAS",
+     "ok": true
+    },
+    "am": {
+     "price": 237,
+     "orig": null,
+     "asin": "B074JG868Q",
+     "link": "https://www.amazon.com.br/dp/B074JG868Q?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "ventilador-de-coluna-ventisol-turbo-6-pas-40-cm-preto-127v",
+   "origem": "pedido: ventiladores"
   }
  ]
 }
