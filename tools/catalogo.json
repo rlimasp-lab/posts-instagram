@@ -67,6 +67,30 @@
    "id": "vent",
    "label": "Ventiladores",
    "spec": "Tamanho"
+  },
+  {
+   "id": "piscina",
+   "label": "Piscina",
+   "spec": "Embalagem",
+   "group": "casa"
+  },
+  {
+   "id": "jardim",
+   "label": "Jardim",
+   "spec": "Tipo",
+   "group": "casa"
+  },
+  {
+   "id": "pragas",
+   "label": "Pragas",
+   "spec": "Tipo",
+   "group": "casa"
+  },
+  {
+   "id": "limpeza",
+   "label": "Limpeza",
+   "spec": "Tipo",
+   "group": "casa"
   }
  ],
  "items": [
@@ -1299,6 +1323,399 @@
    },
    "id": "ventilador-de-coluna-ventisol-turbo-6-pas-40-cm-preto-127v",
    "origem": "pedido: ventiladores"
+  },
+  {
+   "cat": "piscina",
+   "name": "Cloro Genco Multiação 3 em 1 Granulado 10 kg",
+   "brand": "Genco",
+   "spec": "10 kg",
+   "img": "831022-MLA110016444726_042026",
+   "offers": {
+    "ml": {
+     "price": 219,
+     "orig": null,
+     "link": "https://meli.la/1eWSzmb",
+     "mlb": "MLB23355713",
+     "seller": "AM Materiais para Construção",
+     "ok": true
+    },
+    "am": {
+     "price": 177,
+     "orig": 220,
+     "asin": "B077PJDFP5",
+     "link": "https://www.amazon.com.br/dp/B077PJDFP5?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "cloro-genco-multiacao-3-em-1-granulado-10-kg",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "piscina",
+   "name": "Cloro Granulado HTH Tradicional 65% 10 kg",
+   "brand": "HTH",
+   "spec": "10 kg",
+   "img": "623321-MLA96900567616_112025",
+   "offers": {
+    "ml": {
+     "price": 426,
+     "orig": 590,
+     "link": "https://meli.la/1vLePCp",
+     "mlb": "MLB61743371",
+     "seller": "NEVADA PISCINAS",
+     "ok": true
+    },
+    "am": {
+     "price": 380,
+     "orig": null,
+     "asin": "B076PKNMX3",
+     "link": "https://www.amazon.com.br/dp/B076PKNMX3?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "cloro-granulado-hth-tradicional-65-10-kg",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "piscina",
+   "name": "Cloro Granulado HTH Pace Ação Total 10 kg",
+   "brand": "HTH",
+   "spec": "10 kg",
+   "img": "826331-MLA100008470519_122025",
+   "offers": {
+    "ml": {
+     "price": 264,
+     "orig": null,
+     "link": "https://meli.la/2nRBKMc",
+     "mlb": "MLB28251481",
+     "seller": "Equibombas",
+     "ok": true
+    },
+    "am": {
+     "price": 258,
+     "orig": null,
+     "asin": "B076PGF4DW",
+     "link": "https://www.amazon.com.br/dp/B076PGF4DW?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "cloro-granulado-hth-pace-acao-total-10-kg",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "piscina",
+   "name": "Clarificante Genco Genfloc 1 L",
+   "brand": "Genco",
+   "spec": "1 L",
+   "img": "719001-MLA99357918348_112025",
+   "offers": {
+    "ml": {
+     "price": 22.5,
+     "orig": 30,
+     "link": "https://meli.la/1iborQp",
+     "mlb": "MLB33315848",
+     "seller": "MMDISTRIBUIDOR10",
+     "ok": true
+    },
+    "am": {
+     "price": 20.99,
+     "orig": null,
+     "asin": "B0BGMGFCKJ",
+     "link": "https://www.amazon.com.br/dp/B0BGMGFCKJ?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "clarificante-genco-genfloc-1-l",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "piscina",
+   "name": "Algicida e Decantador HTH Ultra Clear 2 em 1 Refil",
+   "brand": "HTH",
+   "spec": "Refil",
+   "img": "922125-MLA99958498375_112025",
+   "offers": {
+    "ml": {
+     "price": 106,
+     "orig": 112,
+     "link": "https://meli.la/1kMrqhX",
+     "mlb": "MLB44955696",
+     "seller": "MONT PISCINAS",
+     "ok": true
+    }
+   },
+   "id": "algicida-e-decantador-hth-ultra-clear-2-em-1-refil",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "jardim",
+   "name": "Cortador de Grama Elétrico Tramontina CE35P 1300W 220V",
+   "brand": "Tramontina",
+   "spec": "Cortador",
+   "img": "763027-MLA99930202519_112025",
+   "offers": {
+    "ml": {
+     "price": 658,
+     "orig": 852,
+     "link": "https://meli.la/1ECACt7",
+     "mlb": "MLB11407045",
+     "seller": "Tramontina",
+     "ok": true
+    },
+    "am": {
+     "price": 570,
+     "orig": 1050,
+     "asin": "B0776VRM73",
+     "link": "https://www.amazon.com.br/dp/B0776VRM73?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "cortador-de-grama-eletrico-tramontina-ce35p-1300w-220v",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "jardim",
+   "name": "Aparador de Grama Tramontina AP1500 127V",
+   "brand": "Tramontina",
+   "spec": "Aparador",
+   "img": "723972-MLA99458968502_112025",
+   "offers": {
+    "ml": {
+     "price": 253,
+     "orig": 275,
+     "link": "https://meli.la/1km36HB",
+     "mlb": "MLB16038176",
+     "seller": "Irrigar Maq",
+     "ok": true
+    }
+   },
+   "id": "aparador-de-grama-tramontina-ap1500-127v",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "jardim",
+   "name": "Mangueira Tramontina Flex 30 m com Esguicho",
+   "brand": "Tramontina",
+   "spec": "Mangueira",
+   "img": "951297-MLA100074197131_122025",
+   "offers": {
+    "ml": {
+     "price": 104,
+     "orig": 163,
+     "link": "https://meli.la/253j2ZJ",
+     "mlb": "MLB22571334",
+     "seller": "Tramontina",
+     "ok": true
+    }
+   },
+   "id": "mangueira-tramontina-flex-30-m-com-esguicho",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "jardim",
+   "name": "Adubo Forth Jardim Granulado 3 kg",
+   "brand": "Forth",
+   "spec": "Adubo",
+   "img": "889884-MLA99963805137_112025",
+   "offers": {
+    "ml": {
+     "price": 78,
+     "orig": 120,
+     "link": "https://meli.la/1ncMCK5",
+     "mlb": "MLB23350268",
+     "seller": "World Garden",
+     "ok": true
+    },
+    "am": {
+     "price": 70.64,
+     "orig": 110,
+     "asin": "B07VS9R1J7",
+     "link": "https://www.amazon.com.br/dp/B07VS9R1J7?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "adubo-forth-jardim-granulado-3-kg",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "pragas",
+   "name": "Inseticida K-Othrine SC 25 250 ml",
+   "brand": "K-Othrine",
+   "spec": "Inseticida",
+   "img": "649774-MLA99383941146_112025",
+   "offers": {
+    "ml": {
+     "price": 97,
+     "orig": 119,
+     "link": "https://meli.la/2oAxTyQ",
+     "mlb": "MLB21480325",
+     "seller": "Grand Magasin",
+     "ok": true
+    },
+    "am": {
+     "price": 63.27,
+     "orig": null,
+     "asin": "B0F2BF8ZKJ",
+     "link": "https://www.amazon.com.br/dp/B0F2BF8ZKJ?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "inseticida-k-othrine-sc-25-250-ml",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "pragas",
+   "name": "Inseticida K-Othrine SC 25 30 ml",
+   "brand": "K-Othrine",
+   "spec": "Inseticida",
+   "img": "704010-MLA106096153343_012026",
+   "offers": {
+    "ml": {
+     "price": 15,
+     "orig": 33,
+     "link": "https://meli.la/2iiBKhK",
+     "mlb": "MLB29414587",
+     "seller": "symvet",
+     "ok": true
+    },
+    "am": {
+     "price": 20.9,
+     "orig": null,
+     "asin": "B0F2BRQ5RY",
+     "link": "https://www.amazon.com.br/dp/B0F2BRQ5RY?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "inseticida-k-othrine-sc-25-30-ml",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "pragas",
+   "name": "Formicida Isca Mirex-SD 50 g",
+   "brand": "Mirex",
+   "spec": "Formicida",
+   "img": "747438-MLA74780019835_022024",
+   "offers": {
+    "ml": {
+     "price": 19.9,
+     "orig": null,
+     "link": "https://meli.la/1tS5owE",
+     "mlb": "MLB16198431",
+     "seller": "",
+     "ok": true
+    }
+   },
+   "id": "formicida-isca-mirex-sd-50-g",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "pragas",
+   "name": "Isca para Formiga Cortadeira Mirex-XD 500 g",
+   "brand": "Mirex",
+   "spec": "Formicida",
+   "img": "963630-MLA121004502693_112026",
+   "offers": {
+    "ml": {
+     "price": 24.25,
+     "orig": null,
+     "link": "https://meli.la/2Se2iiw",
+     "mlb": "MLB44884205",
+     "seller": "completaagropecuaria",
+     "ok": true
+    }
+   },
+   "id": "isca-para-formiga-cortadeira-mirex-xd-500-g",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "limpeza",
+   "name": "Lavadora de Alta Pressão Kärcher Compacta 1500 PSI 1400W",
+   "brand": "Kärcher",
+   "spec": "Lavadora",
+   "img": "746691-MLA118789821329_102026",
+   "offers": {
+    "ml": {
+     "price": 321,
+     "orig": 349,
+     "link": "https://meli.la/2gUtwmM",
+     "mlb": "MLB40583845",
+     "seller": "YRCECOMMERCE",
+     "ok": true
+    }
+   },
+   "id": "lavadora-de-alta-pressao-karcher-compacta-1500-psi-1400w",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "limpeza",
+   "name": "Lavadora de Alta Pressão WAP WL 1800 1500 PSI 127V",
+   "brand": "WAP",
+   "spec": "Lavadora",
+   "img": "914656-MLA112812146736_072026",
+   "offers": {
+    "ml": {
+     "price": 299,
+     "orig": 575,
+     "link": "https://meli.la/2ifYY6W",
+     "mlb": "MLB53768796",
+     "seller": "Mercado Livre",
+     "ok": true
+    },
+    "am": {
+     "price": 299,
+     "orig": null,
+     "asin": "B0FP5K3JRP",
+     "link": "https://www.amazon.com.br/dp/B0FP5K3JRP?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "lavadora-de-alta-pressao-wap-wl-1800-1500-psi-127v",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "limpeza",
+   "name": "Lavadora de Alta Pressão WAP Ousada WL 2610 1750 PSI",
+   "brand": "WAP",
+   "spec": "Lavadora",
+   "img": "789668-MLA118444410577_092026",
+   "offers": {
+    "ml": {
+     "price": 499,
+     "orig": 755,
+     "link": "https://meli.la/2493EB4",
+     "mlb": "MLB28659782",
+     "seller": "2Eletro",
+     "ok": true
+    }
+   },
+   "id": "lavadora-de-alta-pressao-wap-ousada-wl-2610-1750-psi",
+   "origem": "casa e jardim"
+  },
+  {
+   "cat": "limpeza",
+   "name": "Lavadora de Alta Pressão WAP Combate Turbo 2600 220V",
+   "brand": "WAP",
+   "spec": "Lavadora",
+   "img": "970554-MLA119921461556_112026",
+   "offers": {
+    "ml": {
+     "price": 748,
+     "orig": 1142,
+     "link": "https://meli.la/15Y741a",
+     "mlb": "MLB18758432",
+     "seller": "Mercado Livre",
+     "ok": true
+    },
+    "am": {
+     "price": 709,
+     "orig": null,
+     "asin": "B07YGFNDX9",
+     "link": "https://www.amazon.com.br/dp/B07YGFNDX9?tag=lima0a0-20",
+     "ok": true
+    }
+   },
+   "id": "lavadora-de-alta-pressao-wap-combate-turbo-2600-220v",
+   "origem": "casa e jardim"
   }
  ]
 }

@@ -11,6 +11,9 @@ Uso:
 O catalogo completo fica em tools/catalogo.json (todos os links, mesmo de ofertas fora do ar).
 O site le data.json, que so traz ofertas com preco valido na ultima coleta.
 """
+def rp(x):
+    return round(x, 2) if x < 100 else round(x)
+
 import json, sys, os, re, unicodedata
 TRAT = None
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -49,7 +52,7 @@ elif cmd == 'aplica':
             off['ok'] = False
             log.append(f'SEM PRECO  {st} {nome}')
             continue
-        p = round(p); o = round(o) if o and o > p else None
+        p = rp(p); o = rp(o) if o and o > p else None
         old = off.get('price')
         if old and abs(p - old) / old > 0.35:
             # variacao grande demais: provavel erro de leitura, mantem o anterior
@@ -67,7 +70,7 @@ elif cmd == 'adiciona':
     for c in novo.get('categories', []):
         assert {'id', 'label', 'spec'} <= set(c), 'categoria precisa de id, label e spec'
         if not any(x['id'] == c['id'] for x in cat['categories']):
-            cat['categories'].append({'id': c['id'], 'label': c['label'], 'spec': c['spec']})
+            cat['categories'].append({k: c[k] for k in ('id', 'label', 'spec', 'group') if k in c})
             print('categoria nova:', c['label'])
     ids = {it['id'] for it in cat['items']}
     cats = {c['id'] for c in cat['categories']}
@@ -86,7 +89,7 @@ elif cmd == 'adiciona':
             assert re.fullmatch(r'[A-Z0-9]{10}', of['am']['asin'])
             of['am']['link'] = f"https://www.amazon.com.br/dp/{of['am']['asin']}?tag={AMZ_TAG}"
         for v in of.values():
-            v['price'] = round(v['price']); v['orig'] = round(v['orig']) if v.get('orig') and v['orig'] > v['price'] else None; v['ok'] = True
+            v['price'] = rp(v['price']); v['orig'] = rp(v['orig']) if v.get('orig') and v['orig'] > v['price'] else None; v['ok'] = True
         base = slug(it['name']); k, n = base, 2
         while k in ids: k = f'{base}-{n}'; n += 1
         ids.add(k)

@@ -11,8 +11,9 @@ for (const [i, id] of IDS) {
     const h = await (await fetch('/p/' + id, {credentials: 'include'})).text();
     const d = new DOMParser().parseFromString(h, 'text/html');
     const q = s => ((d.querySelector(s) || {}).textContent || '').trim();
-    const p = num(q('.ui-pdp-price__second-line .andes-money-amount__fraction'));
-    const o = num(q('.ui-pdp-price__original-value .andes-money-amount__fraction'));
+    const pr = sel => { const f = num(q(sel + ' .andes-money-amount__fraction')); const c = q(sel + ' .andes-money-amount__cents'); return f === null ? null : (c ? f + parseInt(c, 10) / 100 : f); };
+    const p = pr('.ui-pdp-price__second-line');
+    const o = pr('.ui-pdp-price__original-value');
     const off = /indispon|pausad|esgotad/i.test(q('.ui-pdp-stock-information, .ui-pdp-message, .ui-vpp-highlighted-specs__unavailable'));
     out.push([i, off ? null : p, o]);
   } catch (e) { out.push([i, null, null]); }
